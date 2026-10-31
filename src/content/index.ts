@@ -8,6 +8,18 @@ export interface ContentBlock {
   alt?: string;
   level?: number;
   links?: { label: string; href: string }[];
+  role?: 'title' | 'section' | 'subsection' | 'lead' | 'label' | 'body' | 'caption';
+  content?: InlineContent[];
+  children?: ContentBlock[];
+  spacing?: 'compact' | 'small' | 'normal' | 'large' | 'section';
+  ratios?: number[];
+  ordered?: boolean;
+}
+export interface InlineContent {
+  type: 'text' | 'break' | 'span' | 'strong' | 'emphasis' | 'underline' | 'link';
+  text?: string;
+  href?: string;
+  children?: InlineContent[];
 }
 export type Project = (typeof projects)[number];
 const pages = import.meta.glob<ContentBlock[]>('./*.json', { eager: true, import: 'default' });

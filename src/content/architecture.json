@@ -1,158 +1,400 @@
 [
   {
-    "type": "heading",
-    "text": "Architecture Projects",
-    "level": 1
-  },
-  {
-    "type": "paragraph",
-    "text": "A collection of various architecture projects."
-  },
-  {
-    "type": "paragraph",
-    "text": "Role:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Designer"
-  },
-  {
-    "type": "paragraph",
-    "text": "Date:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Sept 2018 - June 2022"
-  },
-  {
-    "type": "paragraph",
-    "text": "Tools:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Illustrator | Photoshop | Rhino | AutoCAD"
-  },
-  {
-    "type": "paragraph",
-    "text": "Architecture Portfolio:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Access Portfolio",
-    "links": [
+    "type": "stack",
+    "spacing": "section",
+    "children": [
       {
-        "label": "Access Portfolio",
-        "href": "https://drive.google.com/file/d/1O_WvpvnPXaQ3DLXqI0SLDTzA6VA8_zPG/view?usp=sharing"
+        "type": "columns",
+        "spacing": "compact",
+        "ratios": [
+          100,
+          46
+        ],
+        "children": [
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "title",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Architecture Projects"
+                  }
+                ],
+                "level": 1
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A collection of various architecture projects. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Role:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Designer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Date:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Sept 2018 - June 2022"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Tools:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Illustrator | Photoshop | Rhino | AutoCAD"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Architecture Portfolio:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "link",
+                        "href": "https://drive.google.com/file/d/1O_WvpvnPXaQ3DLXqI0SLDTzA6VA8_zPG/view?usp=sharing",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Access Portfolio"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "stack",
+            "spacing": "normal",
+            "children": [
+              {
+                "type": "richText",
+                "role": "subsection",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Hwy 401 and Allen Road: a Study"
+                  }
+                ],
+                "level": 2
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "This project focuses on the pedestrian experience at the intersection of Highway 401 and Allen Road. It highlights the lack of pedestrian-friendly routes for crossing the area and examines the accessibility of the underpasses and sidewalks. The project concludes with a proposal for a footbridge over a section of the highway, along with additional modifications to enhance convenience and safety for pedestrians."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "columns",
+            "spacing": "small",
+            "ratios": [
+              100,
+              100
+            ],
+            "children": [
+              {
+                "type": "image",
+                "src": "images/architecture-1.png",
+                "alt": ""
+              },
+              {
+                "type": "image",
+                "src": "images/architecture-2.png",
+                "alt": ""
+              }
+            ]
+          },
+          {
+            "type": "columns",
+            "spacing": "small",
+            "ratios": [
+              100,
+              100
+            ],
+            "children": [
+              {
+                "type": "image",
+                "src": "images/architecture-3.png",
+                "alt": ""
+              },
+              {
+                "type": "image",
+                "src": "images/architecture-4.png",
+                "alt": ""
+              }
+            ]
+          },
+          {
+            "type": "columns",
+            "spacing": "small",
+            "ratios": [
+              100,
+              100
+            ],
+            "children": [
+              {
+                "type": "image",
+                "src": "images/architecture-5.png",
+                "alt": ""
+              },
+              {
+                "type": "image",
+                "src": "images/architecture-6.png",
+                "alt": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "stack",
+            "spacing": "small",
+            "children": [
+              {
+                "type": "richText",
+                "role": "subsection",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Giannone Petricone Associates Inc. Architects"
+                  }
+                ],
+                "level": 2
+              },
+              {
+                "type": "richText",
+                "role": "lead",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Flavin Lights"
+                  }
+                ],
+                "level": 3
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "images/architecture-7.png",
+            "alt": ""
+          },
+          {
+            "type": "columns",
+            "spacing": "normal",
+            "ratios": [
+              98,
+              100
+            ],
+            "children": [
+              {
+                "type": "image",
+                "src": "images/architecture-8.png",
+                "alt": ""
+              },
+              {
+                "type": "image",
+                "src": "images/architecture-9.png",
+                "alt": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Casa Gaspar: a Case Study"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "columns",
+            "spacing": "normal",
+            "ratios": [
+              100,
+              100
+            ],
+            "children": [
+              {
+                "type": "image",
+                "src": "images/architecture-10.png",
+                "alt": ""
+              },
+              {
+                "type": "image",
+                "src": "images/architecture-11.png",
+                "alt": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "small",
+        "children": [
+          {
+            "type": "image",
+            "src": "images/architecture-12.png",
+            "alt": ""
+          },
+          {
+            "type": "image",
+            "src": "images/architecture-13.png",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Jumble Book: Housing Complex"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "stack",
+            "spacing": "normal",
+            "children": [
+              {
+                "type": "image",
+                "src": "images/architecture-14.png",
+                "alt": ""
+              },
+              {
+                "type": "image",
+                "src": "images/architecture-15.png",
+                "alt": ""
+              },
+              {
+                "type": "image",
+                "src": "images/architecture-16.png",
+                "alt": ""
+              }
+            ]
+          }
+        ]
       }
     ]
-  },
-  {
-    "type": "heading",
-    "text": "Hwy 401 and Allen Road: a Study",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "This project focuses on the pedestrian experience at the intersection of Highway 401 and Allen Road. It highlights the lack of pedestrian-friendly routes for crossing the area and examines the accessibility of the underpasses and sidewalks. The project concludes with a proposal for a footbridge over a section of the highway, along with additional modifications to enhance convenience and safety for pedestrians."
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-1.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-2.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-3.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-4.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-5.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-6.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Giannone Petricone Associates Inc. Architects",
-    "level": 5
-  },
-  {
-    "type": "heading",
-    "text": "Flavin Lights",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-7.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-8.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-9.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Casa Gaspar: a Case Study",
-    "level": 5
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-10.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-11.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-12.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-13.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "The Jumble Book: Housing Complex",
-    "level": 5
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-14.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-15.png",
-    "alt": ""
-  },
-  {
-    "type": "image",
-    "src": "images/architecture-16.png",
-    "alt": ""
   }
 ]

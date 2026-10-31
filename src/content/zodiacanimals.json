@@ -1,129 +1,354 @@
 [
   {
-    "type": "heading",
-    "text": "Zodiac Animals: 3D Design",
-    "level": 1
-  },
-  {
-    "type": "paragraph",
-    "text": "Redesigned the brand identity and created 3D models for a toy manufacturing client."
-  },
-  {
-    "type": "paragraph",
-    "text": "Role:"
-  },
-  {
-    "type": "paragraph",
-    "text": "3D Graphic Designer"
-  },
-  {
-    "type": "paragraph",
-    "text": "Date:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Dec 2023 - January 2023"
-  },
-  {
-    "type": "paragraph",
-    "text": "Tools:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Figma | Illustrator | Photoshop | Rhino"
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-1.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Project Overview",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "For this project, I redesigned the brand logo and identity while also creating mock-ups for a Zodiac toy series."
-  },
-  {
-    "type": "heading",
-    "text": "Logo Exploration and Redesign",
-    "level": 5
-  },
-  {
-    "type": "heading",
-    "text": "Previous Logo:",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-2.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Iterations:",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-3.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "New Logo:",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-4.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Product Mockups",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-5.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Toy Designs",
-    "level": 5
-  },
-  {
-    "type": "heading",
-    "text": "2D Designs for Web and Print Media:",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-6.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "3D Designs for Production:",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-7.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Alternative Add-ons + Costume Concepts:",
-    "level": 6
-  },
-  {
-    "type": "image",
-    "src": "images/zodiacanimals-8.png",
-    "alt": ""
+    "type": "stack",
+    "spacing": "section",
+    "children": [
+      {
+        "type": "columns",
+        "spacing": "compact",
+        "ratios": [
+          100,
+          46
+        ],
+        "children": [
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "title",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Zodiac Animals: 3D Design"
+                  }
+                ],
+                "level": 1
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Redesigned the brand identity and created 3D models for a toy manufacturing client. "
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Role:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "3D Graphic Designer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Date:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Dec 2023 - January 2023"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Tools:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": " Figma | Illustrator | Photoshop | Rhino"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "images/zodiacanimals-1.png",
+        "alt": ""
+      },
+      {
+        "type": "columns",
+        "spacing": "normal",
+        "ratios": [
+          100,
+          100
+        ],
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Project Overview"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "For this project, I redesigned the brand logo and identity while also creating mock-ups for a Zodiac toy series. "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Logo Exploration and Redesign"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "columns",
+            "spacing": "small",
+            "ratios": [
+              100,
+              100
+            ],
+            "children": [
+              {
+                "type": "stack",
+                "spacing": "compact",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "label",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Previous Logo:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "src": "images/zodiacanimals-2.png",
+                    "alt": ""
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "spacing": "compact",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "label",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Iterations:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "src": "images/zodiacanimals-3.png",
+                    "alt": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "label",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "New Logo:"
+                  }
+                ]
+              },
+              {
+                "type": "image",
+                "src": "images/zodiacanimals-4.png",
+                "alt": ""
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "small",
+            "children": [
+              {
+                "type": "richText",
+                "role": "lead",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Product Mockups"
+                  }
+                ],
+                "level": 3
+              },
+              {
+                "type": "image",
+                "src": "images/zodiacanimals-5.png",
+                "alt": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "stack",
+            "spacing": "normal",
+            "children": [
+              {
+                "type": "richText",
+                "role": "subsection",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Toy Designs"
+                  }
+                ],
+                "level": 2
+              },
+              {
+                "type": "richText",
+                "role": "label",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "2D Designs for Web and Print Media: "
+                  }
+                ]
+              },
+              {
+                "type": "image",
+                "src": "images/zodiacanimals-6.png",
+                "alt": ""
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "label",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "3D Designs for Production:"
+                  }
+                ]
+              },
+              {
+                "type": "image",
+                "src": "images/zodiacanimals-7.png",
+                "alt": ""
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "label",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Alternative Add-ons + Costume Concepts: "
+                  }
+                ]
+              },
+              {
+                "type": "image",
+                "src": "images/zodiacanimals-8.png",
+                "alt": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

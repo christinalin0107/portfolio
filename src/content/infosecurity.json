@@ -1,298 +1,931 @@
 [
   {
-    "type": "heading",
-    "text": "Information Security Website",
-    "level": 1
-  },
-  {
-    "type": "paragraph",
-    "text": "A redesign and exploration of the primary information security website at the University of Toronto"
-  },
-  {
-    "type": "paragraph",
-    "text": "Role:"
-  },
-  {
-    "type": "paragraph",
-    "text": "User Experience Designer"
-  },
-  {
-    "type": "paragraph",
-    "text": "Date:"
-  },
-  {
-    "type": "paragraph",
-    "text": "January - May 2024"
-  },
-  {
-    "type": "paragraph",
-    "text": "Team:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Project Manager, Developer, Technical Writer"
-  },
-  {
-    "type": "paragraph",
-    "text": "Link to website:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Link to Website",
-    "links": [
+    "type": "stack",
+    "spacing": "section",
+    "children": [
       {
-        "label": "Link to Website",
-        "href": "https://security.utoronto.ca/"
+        "type": "columns",
+        "spacing": "compact",
+        "ratios": [
+          100,
+          46
+        ],
+        "children": [
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "title",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Information Security Website"
+                  }
+                ],
+                "level": 1
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "A redesign and exploration of the primary information security website at the University of Toronto"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Role:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "User Experience Designer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Date:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "January - May 2024"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Team:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Project Manager, Developer, Technical Writer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Link to website:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "link",
+                        "href": "https://security.utoronto.ca/",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Link to Website"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Tools:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Figma | Optimal Workshop | Wordpress | Miro"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "images/infosecurity-1.png",
+        "alt": ""
+      },
+      {
+        "type": "columns",
+        "spacing": "normal",
+        "ratios": [
+          100,
+          100
+        ],
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Project Overview"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Managing information security for an entire organization is no small feat, and when it comes to delivering that information to the right people, things can get tricky. Our project began with a clear challenge: three separate websites, each offering security-related content, but all struggling with the same issues: a confusing structure, scattered content, and frustrated users who couldn’t find what they needed. "
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The websites were managed by the same department, yet the lack of organization made it difficult for anyone—whether it was an IT staff member, a compliance officer, or a risk manager—to get the right information quickly."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "columns",
+        "spacing": "normal",
+        "ratios": [
+          100,
+          100
+        ],
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Problem"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "Unclear information pathways, hierarchy and flows make it difficult for users to find resources and information on website. "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "End Results"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "We created a unified website that made it effortless for users to find the information they needed based on their roles. Internal security staff could quickly access risk assessments and incident response guidelines, while students could easily navigate security resources and best practices. At the heart of this solution was a user-centered information architecture (IA) that transformed a fragmented system into a smooth, intuitive experience."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Discovering Accessibility and Usability Issues"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "Our first step was to dive into the existing websites and figure out where things were going wrong. We conducted a heuristic analysis, comparing the sites to established usability principles to pinpoint where users were running into issues. Here’s what we discovered:"
+              }
+            ]
+          },
+          {
+            "type": "columns",
+            "spacing": "normal",
+            "ratios": [
+              100,
+              100,
+              100
+            ],
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Cluttered layout with excessive links and pages makes navigation challenging."
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Difficulty in finding relevant content for different user groups. "
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "spacing": "small",
+                "children": [
+                  {
+                    "type": "image",
+                    "src": "images/infosecurity-2.png",
+                    "alt": ""
+                  },
+                  {
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Design and accessibility issues hinder user engagement."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "On top of general accessibility issues such as cluttered pages and poor site navigation, we discovered a main problem was the lack of focus and clear information for different user groups across U of T, which was something that we prioritized in the redesign."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "What do our Users think?"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Next, we turned to the people who would actually be using the website: staff members, faculty, students, security professionals. We crafted a survey to gain insight into their pain points and needs, asking key questions like:"
+                  }
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": false,
+                "children": [
+                  {
+                    "type": "listItem",
+                    "children": [
+                      {
+                        "type": "richText",
+                        "role": "body",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "How are you using the current information security website?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "children": [
+                      {
+                        "type": "richText",
+                        "role": "body",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "How do you currently navigate the site, and where do you run into issues?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "children": [
+                      {
+                        "type": "richText",
+                        "role": "body",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Which topics would you like to see on the homepage of the new information security website?"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The results echoes the concerns brought up in the heuristic analysis, which were that the current websites were hard to navigate and find relevant resources. Users want the new website to address this issue as well as having easy access to services, training material, and current news and updates on information security."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "How did we address navigation issues?"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The main problem was that users didn't not know where to look for resources, many resources had multiple navigation paths, making the resources difficult to find. There was also too much information linking fro the website that made it difficult for users to find relevant information.We conducted an audit of all current pages and resources across all three information security websites and review this list with the the informaiton securty team to determine what to keep and which documents to archive. "
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Based on the results of this audit, we conducted a hybrid card sort with 14 security team members to see which areas on the website they would expect to see certain documents or resources."
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "I mapped out the pages and resources in a site map to be able to see the total picture of the information architecture based on the card sort and survey results from users. This diagram gave the team a clear overview of the website’s main pages and key resources. It also served as a visual tool to show stakeholders the progress of development."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "images/infosecurity-3.png",
+        "alt": ""
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Creating Relevant Resources for Different User Groups"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The unique aspect of this website is that there are resources for different user groups, whether it be for students to learn more about information security and how to secure their data, or IT professionals at the university to access resources and services that aid them in doing their job. Due to this, it was an important challenge for us to create user flows that would accommodate the different types of users visiting the website. "
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The three main users for this website:"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "columns",
+            "spacing": "normal",
+            "ratios": [
+              100,
+              100,
+              100
+            ],
+            "children": [
+              {
+                "type": "stack",
+                "spacing": "small",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "label",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Student"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Wants to learn more about information security best practices involving AI, social media and fraud."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "spacing": "small",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "label",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Faculty"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Wants to learn more about how to secure data for research and guidelines on Generative AI technology."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "spacing": "small",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "label",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Staff"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Wants to access resources such as VPN, remote work guidelines and tools for helping with work."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "lead",
+            "content": [
+              {
+                "type": "text",
+                "text": "Resources for User Types"
+              }
+            ],
+            "level": 3
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "Having the option to explore resources for student, staff and faculty on the home page allows new users to easily navigate to information that is relevant to them and acts as a call to action to explore resources. Using simple language to explain resources makes them easier for users to understand."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "lead",
+            "content": [
+              {
+                "type": "text",
+                "text": "Initial Design for Services Catalog"
+              }
+            ],
+            "level": 3
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "Designing the services catalog was challenging because we needed to categorize services by both audience type and category. The initial solution was to use multi-select dropdown menus, allowing users to filter by audience and category. This made it easier for users to search and find the specific services they needed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "lead",
+            "content": [
+              {
+                "type": "text",
+                "text": "Updated Design for Services Catalog"
+              }
+            ],
+            "level": 3
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "Due to the technical limitations of the WordPress website, we had to adjust the design while maintaining the same functionality. I implemented top and side navigation to help users explore service categories, along with a search bar for finding specific services. "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Improving usability through design"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The last major issue that came up in the heuristic analysis and surveys was that the design decisions of the prior websites hinder usability and accessibility. One example of this was the Report an Incident button. An important purpose of the information security website is to give users a place to go to report security incidents that they encounter. In the old website it was a red button in the header that did not have much context about what was the purpose of this button. Is it a health incident, police incident or another type? To improve the usability and accessibility of this page, I moved the button to a sticky banner under the main header that gives users context about the type of incident that would be addressed once they click \" Report an Incident\".  "
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "The information on the page was also cluttered and diffucuolt to find the relevant contact or resource especially in times of emergency."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "images/infosecurity-4.png",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "To improve the usability and accessibility of this page, I moved the button to a sticky banner under the main header that gives users context about the type of incident that would be addressed once they click \" Report an Incident\".  This banner will also be on all pages of this website in case users need to access it on another page. The webpage also uses cards to clearly explain different security situations to users and how to handle them. "
+              }
+            ]
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lastly, one key improvement was adding a website description to set expectations for visitors. This addressed the lack of clarity we identified in our research. The new homepage design now states the Information Security department’s vision and provides essential website details"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Documentation"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "To simplify maintenance for the Information Security team, I created a design guide outlining component use and specifications, ensuring scalability as the website grows."
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "src": "images/infosecurity-5.png",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "subsection",
+            "content": [
+              {
+                "type": "text",
+                "text": "Impact and Lessons Learned"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "As a result of this redesign, we successfully decommissioned two other information security websites, consolidating all essential information into a single, easy-to-navigate platform. This improvement made it simpler for users to find what they needed. The conversion rate for key service pages such as UTORMFA, UTORVPN, and UTORid rose by 60% compared to the previous website. Engagement also increased by 30%, with more users visiting the site to access resources."
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "From this project I learned:"
+                  }
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "children": [
+                  {
+                    "type": "listItem",
+                    "children": [
+                      {
+                        "type": "richText",
+                        "role": "body",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Reviewing all current pages and resources is key to re-organizing information in a way that's easy to navigate."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "listItem",
+                    "children": [
+                      {
+                        "type": "richText",
+                        "role": "body",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Technical constraints can be opportunities for creative solutions."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
-  },
-  {
-    "type": "paragraph",
-    "text": "Tools:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Figma | Optimal Workshop | Wordpress | Miro"
-  },
-  {
-    "type": "image",
-    "src": "images/infosecurity-1.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Project Overview",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "Managing information security for an entire organization is no small feat, and when it comes to delivering that information to the right people, things can get tricky. Our project began with a clear challenge: three separate websites, each offering security-related content, but all struggling with the same issues: a confusing structure, scattered content, and frustrated users who couldn’t find what they needed."
-  },
-  {
-    "type": "paragraph",
-    "text": "The websites were managed by the same department, yet the lack of organization made it difficult for anyone—whether it was an IT staff member, a compliance officer, or a risk manager—to get the right information quickly."
-  },
-  {
-    "type": "heading",
-    "text": "Problem",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "Unclear information pathways, hierarchy and flows make it difficult for users to find resources and information on website."
-  },
-  {
-    "type": "heading",
-    "text": "End Results",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "We created a unified website that made it effortless for users to find the information they needed based on their roles. Internal security staff could quickly access risk assessments and incident response guidelines, while students could easily navigate security resources and best practices. At the heart of this solution was a user-centered information architecture (IA) that transformed a fragmented system into a smooth, intuitive experience."
-  },
-  {
-    "type": "heading",
-    "text": "Discovering Accessibility and Usability Issues",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "Our first step was to dive into the existing websites and figure out where things were going wrong. We conducted a heuristic analysis, comparing the sites to established usability principles to pinpoint where users were running into issues. Here’s what we discovered:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Cluttered layout with excessive links and pages makes navigation challenging."
-  },
-  {
-    "type": "paragraph",
-    "text": "Difficulty in finding relevant content for different user groups."
-  },
-  {
-    "type": "image",
-    "src": "images/infosecurity-2.png",
-    "alt": ""
-  },
-  {
-    "type": "paragraph",
-    "text": "Design and accessibility issues hinder user engagement."
-  },
-  {
-    "type": "paragraph",
-    "text": "On top of general accessibility issues such as cluttered pages and poor site navigation, we discovered a main problem was the lack of focus and clear information for different user groups across U of T, which was something that we prioritized in the redesign."
-  },
-  {
-    "type": "heading",
-    "text": "What do our Users think?",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "Next, we turned to the people who would actually be using the website: staff members, faculty, students, security professionals. We crafted a survey to gain insight into their pain points and needs, asking key questions like:"
-  },
-  {
-    "type": "paragraph",
-    "text": "How are you using the current information security website?"
-  },
-  {
-    "type": "paragraph",
-    "text": "How do you currently navigate the site, and where do you run into issues?"
-  },
-  {
-    "type": "paragraph",
-    "text": "Which topics would you like to see on the homepage of the new information security website?"
-  },
-  {
-    "type": "paragraph",
-    "text": "The results echoes the concerns brought up in the heuristic analysis, which were that the current websites were hard to navigate and find relevant resources. Users want the new website to address this issue as well as having easy access to services, training material, and current news and updates on information security."
-  },
-  {
-    "type": "heading",
-    "text": "How did we address navigation issues?",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "The main problem was that users didn't not know where to look for resources, many resources had multiple navigation paths, making the resources difficult to find. There was also too much information linking fro the website that made it difficult for users to find relevant information.We conducted an audit of all current pages and resources across all three information security websites and review this list with the the informaiton securty team to determine what to keep and which documents to archive."
-  },
-  {
-    "type": "paragraph",
-    "text": "Based on the results of this audit, we conducted a hybrid card sort with 14 security team members to see which areas on the website they would expect to see certain documents or resources."
-  },
-  {
-    "type": "paragraph",
-    "text": "I mapped out the pages and resources in a site map to be able to see the total picture of the information architecture based on the card sort and survey results from users. This diagram gave the team a clear overview of the website’s main pages and key resources. It also served as a visual tool to show stakeholders the progress of development."
-  },
-  {
-    "type": "image",
-    "src": "images/infosecurity-3.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Creating Relevant Resources for Different User Groups",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "The unique aspect of this website is that there are resources for different user groups, whether it be for students to learn more about information security and how to secure their data, or IT professionals at the university to access resources and services that aid them in doing their job. Due to this, it was an important challenge for us to create user flows that would accommodate the different types of users visiting the website."
-  },
-  {
-    "type": "paragraph",
-    "text": "The three main users for this website:"
-  },
-  {
-    "type": "heading",
-    "text": "Student",
-    "level": 6
-  },
-  {
-    "type": "paragraph",
-    "text": "Wants to learn more about information security best practices involving AI, social media and fraud."
-  },
-  {
-    "type": "heading",
-    "text": "Faculty",
-    "level": 6
-  },
-  {
-    "type": "paragraph",
-    "text": "Wants to learn more about how to secure data for research and guidelines on Generative AI technology."
-  },
-  {
-    "type": "heading",
-    "text": "Staff",
-    "level": 6
-  },
-  {
-    "type": "paragraph",
-    "text": "Wants to access resources such as VPN, remote work guidelines and tools for helping with work."
-  },
-  {
-    "type": "heading",
-    "text": "Resources for User Types",
-    "level": 6
-  },
-  {
-    "type": "paragraph",
-    "text": "Having the option to explore resources for student, staff and faculty on the home page allows new users to easily navigate to information that is relevant to them and acts as a call to action to explore resources. Using simple language to explain resources makes them easier for users to understand."
-  },
-  {
-    "type": "heading",
-    "text": "Initial Design for Services Catalog",
-    "level": 6
-  },
-  {
-    "type": "paragraph",
-    "text": "Designing the services catalog was challenging because we needed to categorize services by both audience type and category. The initial solution was to use multi-select dropdown menus, allowing users to filter by audience and category. This made it easier for users to search and find the specific services they needed."
-  },
-  {
-    "type": "heading",
-    "text": "Updated Design for Services Catalog",
-    "level": 6
-  },
-  {
-    "type": "paragraph",
-    "text": "Due to the technical limitations of the WordPress website, we had to adjust the design while maintaining the same functionality. I implemented top and side navigation to help users explore service categories, along with a search bar for finding specific services."
-  },
-  {
-    "type": "heading",
-    "text": "Improving usability through design",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "The last major issue that came up in the heuristic analysis and surveys was that the design decisions of the prior websites hinder usability and accessibility. One example of this was the Report an Incident button. An important purpose of the information security website is to give users a place to go to report security incidents that they encounter. In the old website it was a red button in the header that did not have much context about what was the purpose of this button. Is it a health incident, police incident or another type? To improve the usability and accessibility of this page, I moved the button to a sticky banner under the main header that gives users context about the type of incident that would be addressed once they click \" Report an Incident\"."
-  },
-  {
-    "type": "paragraph",
-    "text": "The information on the page was also cluttered and diffucuolt to find the relevant contact or resource especially in times of emergency."
-  },
-  {
-    "type": "image",
-    "src": "images/infosecurity-4.png",
-    "alt": ""
-  },
-  {
-    "type": "paragraph",
-    "text": "To improve the usability and accessibility of this page, I moved the button to a sticky banner under the main header that gives users context about the type of incident that would be addressed once they click \" Report an Incident\". This banner will also be on all pages of this website in case users need to access it on another page. The webpage also uses cards to clearly explain different security situations to users and how to handle them."
-  },
-  {
-    "type": "paragraph",
-    "text": "Lastly, one key improvement was adding a website description to set expectations for visitors. This addressed the lack of clarity we identified in our research. The new homepage design now states the Information Security department’s vision and provides essential website details"
-  },
-  {
-    "type": "heading",
-    "text": "Documentation",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "To simplify maintenance for the Information Security team, I created a design guide outlining component use and specifications, ensuring scalability as the website grows."
-  },
-  {
-    "type": "image",
-    "src": "images/infosecurity-5.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Impact and Lessons Learned",
-    "level": 5
-  },
-  {
-    "type": "paragraph",
-    "text": "As a result of this redesign, we successfully decommissioned two other information security websites, consolidating all essential information into a single, easy-to-navigate platform. This improvement made it simpler for users to find what they needed. The conversion rate for key service pages such as UTORMFA, UTORVPN, and UTORid rose by 60% compared to the previous website. Engagement also increased by 30%, with more users visiting the site to access resources."
-  },
-  {
-    "type": "paragraph",
-    "text": "From this project I learned:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Reviewing all current pages and resources is key to re-organizing information in a way that's easy to navigate."
-  },
-  {
-    "type": "paragraph",
-    "text": "Technical constraints can be opportunities for creative solutions."
   }
 ]

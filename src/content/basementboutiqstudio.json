@@ -1,89 +1,233 @@
 [
   {
-    "type": "heading",
-    "text": "Basement Boutiq Studio",
-    "level": 1
-  },
-  {
-    "type": "paragraph",
-    "text": "Small business focusing on hand-made keychains, stickers, and jewellery of things that make me happy!"
-  },
-  {
-    "type": "paragraph",
-    "text": "Role:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Business owner"
-  },
-  {
-    "type": "paragraph",
-    "text": "Date:"
-  },
-  {
-    "type": "paragraph",
-    "text": "January 2024-Present"
-  },
-  {
-    "type": "paragraph",
-    "text": "Link:"
-  },
-  {
-    "type": "paragraph",
-    "text": "Link to Shop",
-    "links": [
+    "type": "stack",
+    "spacing": "section",
+    "children": [
       {
-        "label": "Link to Shop",
-        "href": "https://shop.loremagazine.world/"
+        "type": "columns",
+        "spacing": "compact",
+        "ratios": [
+          100,
+          46
+        ],
+        "children": [
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "richText",
+                "role": "title",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Basement Boutiq Studio"
+                  }
+                ],
+                "level": 1
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Small business focusing on hand-made keychains, stickers, and jewellery of things that make me happy!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "spacing": "compact",
+            "children": [
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Role:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Business owner"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Date:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "January 2024-Present"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "metadataRow",
+                "children": [
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Link:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "richText",
+                    "role": "caption",
+                    "content": [
+                      {
+                        "type": "link",
+                        "href": "https://shop.loremagazine.world/",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Link to Shop"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "images/basementboutiqstudio-1.png",
+        "alt": ""
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "section",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Story"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "A quick back story of my store is that I'm a designer who always loved making art and crafts, so I decided to take the leap last year to set up my Etsy store and start tabling at vendor markets in Toronto. I've been a vendor in four markets so far, and I love the community that comes by supporting local vendors and the opportunity to connect with customers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "images/basementboutiqstudio-2.png",
+        "alt": ""
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "section",
+            "content": [
+              {
+                "type": "text",
+                "text": "E-commerce "
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "I set up my Etsy store in 2024. Since then, I've learned a lot about marketing, pricing, customer experience, and the international shipping process. "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "images/basementboutiqstudio-3.png",
+        "alt": ""
+      },
+      {
+        "type": "stack",
+        "spacing": "normal",
+        "children": [
+          {
+            "type": "richText",
+            "role": "section",
+            "content": [
+              {
+                "type": "text",
+                "text": "Product Catalogue"
+              }
+            ],
+            "level": 2
+          },
+          {
+            "type": "richText",
+            "role": "body",
+            "content": [
+              {
+                "type": "text",
+                "text": "All of the products and art work I design are handmade and custom designed and inspired by characters that bring me joy. I started off by making jewelry and gradually expanded into polymer clay keychains, stickers, and custom orders."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "images/basementboutiqstudio-4.png",
+        "alt": ""
       }
     ]
-  },
-  {
-    "type": "image",
-    "src": "images/basementboutiqstudio-1.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "The Story",
-    "level": 2
-  },
-  {
-    "type": "paragraph",
-    "text": "A quick back story of my store is that I'm a designer who always loved making art and crafts, so I decided to take the leap last year to set up my Etsy store and start tabling at vendor markets in Toronto. I've been a vendor in four markets so far, and I love the community that comes by supporting local vendors and the opportunity to connect with customers."
-  },
-  {
-    "type": "image",
-    "src": "images/basementboutiqstudio-2.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "E-commerce",
-    "level": 2
-  },
-  {
-    "type": "heading",
-    "text": "I set up my Etsy store in 2024. Since then, I've learned a lot about marketing, pricing, customer experience, and the international shipping process.",
-    "level": 3
-  },
-  {
-    "type": "image",
-    "src": "images/basementboutiqstudio-3.png",
-    "alt": ""
-  },
-  {
-    "type": "heading",
-    "text": "Product Catalogue",
-    "level": 2
-  },
-  {
-    "type": "paragraph",
-    "text": "All of the products and art work I design are handmade and custom designed and inspired by characters that bring me joy. I started off by making jewelry and gradually expanded into polymer clay keychains, stickers, and custom orders."
-  },
-  {
-    "type": "image",
-    "src": "images/basementboutiqstudio-4.png",
-    "alt": ""
   }
 ]

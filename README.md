@@ -18,7 +18,7 @@ pnpm dev
 
 - `src/content/site.json`: introduction, logo, and social links.
 - `src/content/projects.json`: project names, categories, tags, and cover images.
-- `src/content/<slug>.json`: ordered case-study content blocks, including headings, paragraphs, links, and images.
+- `src/content/<slug>.json`: case-study layout groups and rich text. `stack` groups vertical content, `columns` groups related content side by side, `metadataRow` pairs project labels and values, and `list` preserves numbered or bulleted items. Rich text preserves emphasis, links, and line breaks. The About page uses the original flat content format.
 - `public/images/`: original downloaded images. Content paths omit the leading slash.
 - `src/components/`: reusable layout, project card, and content rendering.
 - `src/pages/`: page composition.
@@ -34,4 +34,4 @@ Preview and compare every case study before switching the existing domain. To re
 
 ## Migration
 
-`scripts/import-framer.mjs` imports published Framer content. It is a one-time migration utility, not part of the application or deployment. Rerunning it overwrites the content files. Raw source snapshots are kept in ignored `.migration/` for comparison. Imported case-study ordering, image descriptions, and grouping require visual review against the original pages.
+`scripts/import-framer.mjs` is the original one-time content migration utility, not part of the application or deployment. Do not rerun it over the maintained case studies: it overwrites their restored layout groups with a flat import. Edit the content files directly. Raw source snapshots and comparison tools are kept in ignored `.migration/`. No Framer runtime or live content requests are needed by the rebuilt site.
