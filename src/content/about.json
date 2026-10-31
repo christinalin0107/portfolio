@@ -1,0 +1,75 @@
+[
+  {
+    "type": "heading",
+    "text": "Creating digital experiences one pixel at a time. 🪄",
+    "level": 1
+  },
+  {
+    "type": "image",
+    "src": "images/about-1.jpg",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Hi! I'm Christina, a UX Designer based in Toronto. I specialize in accessibility, user research, and crafting creative design solutions.Outside of work, I love to crochet, make jewellery, and take care of plants.🪴"
+  },
+  {
+    "type": "image",
+    "src": "images/about-2.svg",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "W O R K E X P E R I E N C E"
+  },
+  {
+    "type": "paragraph",
+    "text": "View Resume",
+    "links": [
+      {
+        "label": "View Resume",
+        "href": "https://drive.google.com/file/d/1BUn2kTUHCbzbvppkJOwwMwUFZm5N7QfR/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Jan 2024 — Current"
+  },
+  {
+    "type": "paragraph",
+    "text": "UX Designer — Information Technology Services, University of Toronto"
+  },
+  {
+    "type": "paragraph",
+    "text": "Nov 2023 — Jan 2024"
+  },
+  {
+    "type": "paragraph",
+    "text": "Product Designer — Greenberg Hameed"
+  },
+  {
+    "type": "paragraph",
+    "text": "Sept 2023 — Dec 2023"
+  },
+  {
+    "type": "paragraph",
+    "text": "Product Designer — Project: Human City"
+  },
+  {
+    "type": "paragraph",
+    "text": "Sept 2021 — Mar 2023"
+  },
+  {
+    "type": "paragraph",
+    "text": "UX Designer — University of Toronto Scarborough"
+  },
+  {
+    "type": "paragraph",
+    "text": "Aug 2021 — Dec 2021"
+  },
+  {
+    "type": "paragraph",
+    "text": "Junior UX Designer/Analyst — Faculty of Information, University of Toronto"
+  }
+]

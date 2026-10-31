@@ -1,0 +1,461 @@
+[
+  {
+    "type": "heading",
+    "text": "StitchFit",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "An app that curates clothing for your perfect fit."
+  },
+  {
+    "type": "paragraph",
+    "text": "Role:"
+  },
+  {
+    "type": "paragraph",
+    "text": "User Experience Designer"
+  },
+  {
+    "type": "paragraph",
+    "text": "Date:"
+  },
+  {
+    "type": "paragraph",
+    "text": "March - September 2023"
+  },
+  {
+    "type": "paragraph",
+    "text": "Prototype:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Link to Prototype",
+    "links": [
+      {
+        "label": "Link to Prototype",
+        "href": "https://www.figma.com/proto/WsWLzIDWn6ZHmb703OTP3X/Capstone-Mock-up?type=design&node-id=4-274&t=OAMWBZQAHv3zuy0p-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=39%3A790"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "Tools:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Figma | Adobe Illustrator | Optimal Workshop"
+  },
+  {
+    "type": "image",
+    "src": "images/cards-1.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Project Overview",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "StitchFit is an ecommerce app that recommends shoppers correct fitting clothing by measuring them with AI-powered imaging technology and using their measurements to curate a selection of clothing from different brands personalized to their size and preference."
+  },
+  {
+    "type": "paragraph",
+    "text": "This case study delves into the challenges of finding the correct size when shopping online. Over a six-month period, I designed an application from ideation to prototype, addressing this issue with an innovative approach and user-informed solutions."
+  },
+  {
+    "type": "heading",
+    "text": "Problem",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "A common issue with the rise of online shopping is purchasing clothes that turn out to be the wrong size. This problem leads to a higher rate of returns, creating challenges for both companies and the environment."
+  },
+  {
+    "type": "paragraph",
+    "text": "Inconsistency in clothing sizing exists due to vanity sizing that emerged in the 20th century as well as different styles across different brands."
+  },
+  {
+    "type": "paragraph",
+    "text": "Sizing inconsistency in the fashion industry is an issue for shoppers, businesses, and the environment."
+  },
+  {
+    "type": "paragraph",
+    "text": "Shoppers bracket purchase clothing and return the wrong sized clothing to combat this existing issue they face."
+  },
+  {
+    "type": "paragraph",
+    "text": "There are some solutions towards the issue of clothing size inconsistency such as plug-ins for online retail stores as well as more experimental solutions"
+  },
+  {
+    "type": "heading",
+    "text": "Final Designs",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "To tackle this issue, I explored methods to improve size accuracy using both objective and subjective forms of measurements and data collection. StitchFit utilizes photo technology to measure users' sizes and recommends clothing from their favorite brands that fits them correctly."
+  },
+  {
+    "type": "heading",
+    "text": "1",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "App introduction"
+  },
+  {
+    "type": "paragraph",
+    "text": "When a user opens the app for the first time, they are greeted with an introduction and a tutorial, complete with images showcasing the app's features."
+  },
+  {
+    "type": "heading",
+    "text": "2",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "Measuring Size"
+  },
+  {
+    "type": "paragraph",
+    "text": "Users are prompted to select their sizing preferences and optionally input their measurements for greater accuracy. They the can follow on-screen directions to complete the photo-sizing process."
+  },
+  {
+    "type": "heading",
+    "text": "3",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "Create Profile"
+  },
+  {
+    "type": "paragraph",
+    "text": "After being presented with their sizing results, users are prompted to save their size details by creating a user profile."
+  },
+  {
+    "type": "heading",
+    "text": "4",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "Buying Items"
+  },
+  {
+    "type": "paragraph",
+    "text": "The items on the homepage are generated from the users brand preferences as well as sizing results. They can view individual items, look at reviews and add the item to their bag."
+  },
+  {
+    "type": "heading",
+    "text": "Why is this a problem?",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "To further understand users pain points on the current state of online shopping, I conducted user interviews to recognize the target user and to see how online shoppers felt about finding their size online."
+  },
+  {
+    "type": "paragraph",
+    "text": "I conducted user interviews with five participants to gain deeper insights into my target users and inform my design. The questions focused on their routines and opinions about the current state of online shopping. Which informed the design to analyze users' body measurements to determine the best size for them, addressing the inevitable inconsistencies between brand sizes. Some main insights that users brought up include:"
+  },
+  {
+    "type": "paragraph",
+    "text": "\"It's important for the online store to have a good return policy, and it played a factor in whether they were willing to purchase from the store.\""
+  },
+  {
+    "type": "paragraph",
+    "text": "\"Sizes are inconsistent more between brand than within brands but fabric stretch can make sizes within brands inconsistent\""
+  },
+  {
+    "type": "paragraph",
+    "text": "\" Reviews and images play a large part in how I determine my size online.\""
+  },
+  {
+    "type": "paragraph",
+    "text": "\" If I am in between 2 sizes, I will decide if I prefer a looser or tighter fit and then choose my size according to that.\""
+  },
+  {
+    "type": "heading",
+    "text": "Current Solutions",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Similar problem spaces have been addressed by other products. Market solutions typically include retail site plugins with quizzes for size estimation. These approaches fall short due to subjective measurements and limited user awareness. However, TrueFit presents an innovative solution by estimating sizes based on brands the user already knows, thus incorporating the user's personal knowledge for more accurate sizing."
+  },
+  {
+    "type": "paragraph",
+    "text": "One gap in the market is a product that recommends clothing based on the user's size and preferences, rather than the user having to search for items that fit. This approach ensures that users won't encounter the frustration of finding something they like only to discover it's not available in their size."
+  },
+  {
+    "type": "paragraph",
+    "text": "Allows users to save data"
+  },
+  {
+    "type": "paragraph",
+    "text": "Sizing based off familiar brands"
+  },
+  {
+    "type": "paragraph",
+    "text": "Visibility"
+  },
+  {
+    "type": "paragraph",
+    "text": "Objective Sizing Accuracy"
+  },
+  {
+    "type": "paragraph",
+    "text": "Retail Site Integration"
+  },
+  {
+    "type": "image",
+    "src": "images/cards-2.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-3.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Sketches",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Informed by the user research, I began designing low-fidelity sketches to determine the direction that I wanted to take my project and to brainstorm details that would be included in the final design."
+  },
+  {
+    "type": "paragraph",
+    "text": "I brainstormed two ideas for products that would solve the problem of inconsistent sizing online."
+  },
+  {
+    "type": "paragraph",
+    "text": "Sketch 1 is an app that utilizes photo scanning technology to determine an users size, then suggests clothing based on their size"
+  },
+  {
+    "type": "paragraph",
+    "text": "Sketch 2 is a browser plug-in that asks users a variety of questions about their body, fit preferences, an sizing from specific brandsI decided to proceed with Sketch 1 because it provides a more objective method for measuring the user's size, resulting in more accurate sizing suggestions."
+  },
+  {
+    "type": "paragraph",
+    "text": "I decided to proceed with Sketch 1 because it provides a more objective method for measuring the user's size, resulting in more accurate sizing suggestions."
+  },
+  {
+    "type": "image",
+    "src": "images/cards-4.jpg",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-5.jpg",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Wireframes",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "I translated my first sketches into low-fidelity wireframes and created a clickable prototype to test with users. Based on 3 tests, I’ve made a few alternations and moved on to creating high-fidelity prototypes."
+  },
+  {
+    "type": "paragraph",
+    "text": "Some recommendations that users suggested were:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Add a filter search option."
+  },
+  {
+    "type": "paragraph",
+    "text": "Make switching users more intuitive and easier to find."
+  },
+  {
+    "type": "paragraph",
+    "text": "Move the login to a later part of the app so that users are not asked to login immediately after opening the app."
+  },
+  {
+    "type": "image",
+    "src": "images/cards-6.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Improving the onboarding process",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "One challenge identified during usability testing was that users did not want to log in at the beginning of the set-up process. Allowing users to skip certain steps creates a more seamless and user-driven introduction to the app, enabling them to understand its functionality before signing up."
+  },
+  {
+    "type": "paragraph",
+    "text": "Users will have three opportunities to skip the setup process:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Skip size set up"
+  },
+  {
+    "type": "paragraph",
+    "text": "Users can skip the size set up and go straight to the homepage to browse popular items."
+  },
+  {
+    "type": "paragraph",
+    "text": "They will be prompted to complete size set up to get personalized suggestions."
+  },
+  {
+    "type": "image",
+    "src": "images/cards-7.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-8.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-9.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Skip profile creation"
+  },
+  {
+    "type": "paragraph",
+    "text": "Users can skip creating their user profile after their size set up to browse clothing items in their size."
+  },
+  {
+    "type": "paragraph",
+    "text": "Users are prompted to create their user profile to save their sizing details."
+  },
+  {
+    "type": "image",
+    "src": "images/cards-10.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-11.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Fully logged in"
+  },
+  {
+    "type": "paragraph",
+    "text": "Once a user is fully logged in, they will see clothing options in their size and brand preferences."
+  },
+  {
+    "type": "image",
+    "src": "images/cards-12.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-13.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-14.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Set-up Flow"
+  },
+  {
+    "type": "heading",
+    "text": "Design Improvements",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "To test my high-fidelity design, I conducted usability testing with 5 users. I asked the users to complete a series of tasks while providing feedback on specific flows and functions. The main usability issues identified included:"
+  },
+  {
+    "type": "heading",
+    "text": "Issue 1: Order history is hard to find.",
+    "level": 4
+  },
+  {
+    "type": "image",
+    "src": "images/cards-15.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "I moved the order history to the front page of the profile so that it is easier for users to find."
+  },
+  {
+    "type": "heading",
+    "text": "Issue 2: Closet button is hidden and not intuitive.",
+    "level": 4
+  },
+  {
+    "type": "image",
+    "src": "images/cards-16.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "I moved the 'add the closet' button next to the 'add to bag' button and changed it to a heart icon so that it is more intuitive and easier to find for users."
+  },
+  {
+    "type": "heading",
+    "text": "Issue 3: Settings button does not navigate anywhere.",
+    "level": 4
+  },
+  {
+    "type": "image",
+    "src": "images/cards-17.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "I added a pop-up that controls settings for the photo sizing process."
+  },
+  {
+    "type": "heading",
+    "text": "Issue 4: The change from \"Add to bag\" to \"View in bag\" is not obvious.",
+    "level": 4
+  },
+  {
+    "type": "image",
+    "src": "images/cards-18.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "I added the link to view in bag on the pop-up so that it is more visible for users."
+  },
+  {
+    "type": "heading",
+    "text": "Lessons Learned",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "The set-up process for an app should be quick and simple, giving the user a choice to skip certain choices."
+  },
+  {
+    "type": "paragraph",
+    "text": "It is important to keep the user's needs in mind throughout the whole design process."
+  },
+  {
+    "type": "paragraph",
+    "text": "Usability testing is important throughout the design process and will reveal usability issues that you did not predict."
+  }
+]

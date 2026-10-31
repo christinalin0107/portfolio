@@ -1,0 +1,211 @@
+[
+  {
+    "type": "heading",
+    "text": "Card Component",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "U of T Global Design System"
+  },
+  {
+    "type": "paragraph",
+    "text": "Role:"
+  },
+  {
+    "type": "paragraph",
+    "text": "User Experience Designer"
+  },
+  {
+    "type": "paragraph",
+    "text": "Date:"
+  },
+  {
+    "type": "paragraph",
+    "text": "November - January 2026"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tools:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Figma"
+  },
+  {
+    "type": "image",
+    "src": "images/cards-19.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Cards",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "This case study documents my work designing and validating the card component for the U of T Global Design System. Although the card component appears simple on the surface, the challenge was designing a component that works across multiple applications and is intuitive for both designers to use and developers to implement."
+  },
+  {
+    "type": "image",
+    "src": "images/cards-20.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Process of Creating Component",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Conducting Background Research"
+  },
+  {
+    "type": "paragraph",
+    "text": "I reviewed all instances of cards across our current applications and discovered that the most common use case was a card containing a header, body text, and a call-to-action button. However, there were also other use cases, such as forms within cards, file uploads, and input fields embedded in cards."
+  },
+  {
+    "type": "paragraph",
+    "text": "From this analysis, I concluded that cards are a highly versatile component within our applications, and the component needed to accommodate a wide range of use cases."
+  },
+  {
+    "type": "paragraph",
+    "text": "An important aspect of designing components for a design system is not only examining immediate use cases within your own organization, but also referencing design systems from the broader UX community to understand how other designers approach similar components in their contexts."
+  },
+  {
+    "type": "paragraph",
+    "text": "Researching Other Design Systems"
+  },
+  {
+    "type": "paragraph",
+    "text": "Some of the design systems I referenced were: Horizon, Polaris, Clarity, and Material Design."
+  },
+  {
+    "type": "paragraph",
+    "text": "I also referenced an article about the IKEA design system that provided valuable insight into the research involved in creating a card component: https://medium.com/flat-pack-tech/ikea-a-house-full-of-cards-eed0485854fa.",
+    "links": [
+      {
+        "label": "https://medium.com/flat-pack-tech/ikea-a-house-full-of-cards-eed0485854fa.",
+        "href": "https://medium.com/flat-pack-tech/ikea-a-house-full-of-cards-eed0485854fa"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "text": "One pattern I noticed across many design systems was the use of a slot or instance-swap feature within card components to support diverse use cases. This functionality allows designers to customize card content without needing to detach the component."
+  },
+  {
+    "type": "paragraph",
+    "text": "From my research on card usage across our applications, however, I found that this instance-swap approach was not always convenient for simpler designs that only required text and a button."
+  },
+  {
+    "type": "paragraph",
+    "text": "To address both simple and complex use cases, I created two variants of the card component: a Basic Card for simple layouts and an Instance-Swap Card for more complex designs. The instance-swap variant allows designers to create their own card content and replace the placeholder slot as needed."
+  },
+  {
+    "type": "paragraph",
+    "text": "This approach improves efficiency when creating simple card layouts while standardizing spacing and structure. At the same time, it provides a flexible option for more complex scenarios where designers need greater customization."
+  },
+  {
+    "type": "paragraph",
+    "text": "Feedback and Iteration"
+  },
+  {
+    "type": "paragraph",
+    "text": "Gathering feedback from other designers is especially important when working on a design system, since they will ultimately be using the component in their products. They may identify gaps that were not initially considered or suggest useful variants that could improve the component’s flexibility."
+  },
+  {
+    "type": "paragraph",
+    "text": "One example of this was the card header. I had originally designed the header with an optional popover button controlled by a boolean toggle, based on patterns I observed in some existing applications. However, feedback from other designers revealed that headers could also include other patterns, such as a secondary action button or link beside the title."
+  },
+  {
+    "type": "paragraph",
+    "text": "This functionality was not specific to the card component and could also apply to other container components, such as drawers."
+  },
+  {
+    "type": "paragraph",
+    "text": "Based on this feedback, I created a base header component that could be reused within the card as well as other components. This also allows designers to instance-swap the header if the built-in options do not meet their needs."
+  },
+  {
+    "type": "paragraph",
+    "text": "When designing for a design system, it is important to think beyond the individual component and consider the system as a whole and how features connect with and impact other components, much like bricks that come together to form a building."
+  },
+  {
+    "type": "paragraph",
+    "text": "Accessibility and Working with Developers"
+  },
+  {
+    "type": "paragraph",
+    "text": "Once the design was finalized, I handed it off to the developer and walked through the component together. This step is important to ensure the implementation matches the design and that accessibility considerations are included when the component is built."
+  },
+  {
+    "type": "paragraph",
+    "text": "Because of Figma’s limitations, some interactions cannot always be accurately represented within components. In those cases, documentation and direct communication with developers become essential. For example, the header with the popover button in the component does not wrap in Figma the same way it behaves in the actual implementation. To address this, I included documentation explaining the expected behavior and discussed the interaction with the developer."
+  },
+  {
+    "type": "paragraph",
+    "text": "After the component was built, I tested it to ensure spacing, colors, and typography matched the Figma specifications. I also tested the component using keyboard navigation and a screen reader to confirm that elements were announced correctly and that users could navigate and interact with the component without relying on a mouse."
+  },
+  {
+    "type": "heading",
+    "text": "Spacing and Specs",
+    "level": 2
+  },
+  {
+    "type": "image",
+    "src": "images/cards-21.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Design and Figma Instructions",
+    "level": 2
+  },
+  {
+    "type": "image",
+    "src": "images/cards-22.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Examples",
+    "level": 2
+  },
+  {
+    "type": "image",
+    "src": "images/cards-23.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Using Design Tokens",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Design tokens are used across all components in the design system to help standardize values for colors, spacing, text styles, and other design properties. This makes it easier for designers and developers to maintain consistency while building interfaces. Tokens also allow designers to swap values when needed, providing flexibility without requiring components to be detached or rebuilt."
+  },
+  {
+    "type": "image",
+    "src": "images/cards-24.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/cards-25.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Takeaways",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "One key takeaway from designing the card component is that research and feedback are critical steps in the component design process. There are many factors to consider when building a component, including both current and future use cases. Feedback from designers and developers is especially valuable for identifying gaps and improving the component’s usability and flexibility."
+  },
+  {
+    "type": "paragraph",
+    "text": "It is also important to consider the bigger picture. A single component is only one building block within a larger design system, and patterns introduced in one component can influence or be reused across others to create a more interconnected system. Reviewing existing design system components, patterns, and design tokens helps ensure that new components align with established standards and integrate effectively into the broader ecosystem"
+  }
+]

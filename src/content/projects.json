@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "accessibilityservices",
+    "title": "Accessibility Services, U of T",
+    "category": "ux",
+    "tags": [
+      "UI.UX",
+      "Accessibility"
+    ],
+    "cover": "images/accessibilityservices-cover.png"
+  },
+  {
+    "slug": "cards",
+    "title": "Design System: Cards",
+    "category": "ux",
+    "tags": [
+      "UI.UX",
+      "User Research",
+      "Design System"
+    ],
+    "cover": "images/cards-cover.png"
+  },
+  {
+    "slug": "stitchfit",
+    "title": "StitchFit",
+    "category": "ux",
+    "tags": [
+      "UI.UX",
+      "User Research",
+      "E-commerce"
+    ],
+    "cover": "images/stitchfit-cover.png"
+  },
+  {
+    "slug": "infosecurity",
+    "title": "Info Security Website, U of T",
+    "category": "ux",
+    "tags": [
+      "UI.UX",
+      "Information Architecture"
+    ],
+    "cover": "images/infosecurity-cover.png"
+  },
+  {
+    "slug": "lore",
+    "title": "Lore Magazine",
+    "category": "other",
+    "tags": [
+      "Art Direction",
+      "Graphic Design",
+      "Production"
+    ],
+    "cover": "images/lore-cover.png"
+  },
+  {
+    "slug": "basementboutiqstudio",
+    "title": "Basement Boutiq Studio",
+    "category": "other",
+    "tags": [
+      "Product Design",
+      "Brand Design",
+      "E-commerce"
+    ],
+    "cover": "images/basementboutiqstudio-cover.png"
+  },
+  {
+    "slug": "zodiacanimals",
+    "title": "3D Character and Brand Design",
+    "category": "other",
+    "tags": [
+      "3D Modelling",
+      "Graphic Design"
+    ],
+    "cover": "images/zodiacanimals-cover.png"
+  },
+  {
+    "slug": "architecture",
+    "title": "Architecture Projects",
+    "category": "other",
+    "tags": [
+      "Architecture",
+      "Mapping",
+      "Representation"
+    ],
+    "cover": "images/architecture-cover.png"
+  }
+]

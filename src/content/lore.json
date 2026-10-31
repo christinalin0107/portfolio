@@ -1,0 +1,206 @@
+[
+  {
+    "type": "heading",
+    "text": "Lore Magazine",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "Toronto-based indie magazine representing communities and diverse stories."
+  },
+  {
+    "type": "paragraph",
+    "text": "Role:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Art Director"
+  },
+  {
+    "type": "paragraph",
+    "text": "Date:"
+  },
+  {
+    "type": "paragraph",
+    "text": "January 2025-Present"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tools:"
+  },
+  {
+    "type": "paragraph",
+    "text": "InDesign | Photoshop| Illustrator"
+  },
+  {
+    "type": "paragraph",
+    "text": "Link:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Link to Current Issue",
+    "links": [
+      {
+        "label": "Link to Current Issue",
+        "href": "https://shop.loremagazine.world/"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/lore-1.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "What is Lore?",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "Lore is a Toronto-based independent, community-driven magazine. Each issue is built around a central theme, combining photography and original writing that explores culture, identity, and belonging. Lore recently won Magazine of the Year and Best Magazine Art, Literary, and Culture at the 2026 National Magazine Awards.",
+    "links": [
+      {
+        "label": "2026 National Magazine Awards",
+        "href": "https://magazine-awards.com/en/2026winners/"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/lore-2.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Currently, we have 4 issues that have been created over the past 2 years.",
+    "level": 3
+  },
+  {
+    "type": "image",
+    "src": "images/lore-3.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "We also have our magazine in multiple shops globally and want to keep expanding around the world.",
+    "level": 3
+  },
+  {
+    "type": "image",
+    "src": "images/lore-4.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "We organize photoshoots that highlight diverse models and local photographers.",
+    "level": 3
+  },
+  {
+    "type": "image",
+    "src": "images/lore-5.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/lore-6.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "What do I do for Lore?",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "My role as a Art Director involves collaborating with the masthead team on informing the creative vision of the issue, designing and laying out spreads, creating merch for the launch events and helping with photoshoots as a production assistant."
+  },
+  {
+    "type": "paragraph",
+    "text": "I'm Just Watching, Lore 004"
+  },
+  {
+    "type": "image",
+    "src": "images/lore-7.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "How to throw a rave, Lore 004"
+  },
+  {
+    "type": "image",
+    "src": "images/lore-8.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Evolution of Club Fashion, Lore 004"
+  },
+  {
+    "type": "image",
+    "src": "images/lore-9.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/lore-10.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "The Prettiest Cult You'll Ever Join, Lore 003"
+  },
+  {
+    "type": "image",
+    "src": "images/lore-11.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Poems, Lore 003"
+  },
+  {
+    "type": "image",
+    "src": "images/lore-12.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Sticker designs for Lore launch event."
+  },
+  {
+    "type": "image",
+    "src": "images/lore-13.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "BTS of Mother May I and Ascdendants Photoshoots, 2025"
+  },
+  {
+    "type": "image",
+    "src": "images/lore-14.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Sharing Our Story",
+    "level": 2
+  },
+  {
+    "type": "paragraph",
+    "text": "This year, we've made an impact on Toronto's creative industry by inspiring interest in print media and indie magazines in the very digital age we're living in. Toronto Life writes \"Lore is arguably the trailblazer that kicked off this new wave of the indie magazine trend\". The team also gave a guest lecture at Toronto Metropolitan University for the course CRI/FCD 760: Diversity in the Creative Industries, sharing how we create, collaborate, and how we got started with the magazine. Recently, we just had the launch of our 4th issue, The Club Issue, and it was a great experience to celebrate our community and the achievements of the collaborators. Overall, Lore has been a very rewarding project to be apart of and something I'm proud to share with the community.",
+    "links": [
+      {
+        "label": "Toronto Life",
+        "href": "https://torontolife.com/culture/toronto-indie-magazines/"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/lore-15.png",
+    "alt": ""
+  }
+]

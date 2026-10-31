@@ -1,0 +1,348 @@
+[
+  {
+    "type": "heading",
+    "text": "Accessibility Services Platforms",
+    "level": 1
+  },
+  {
+    "type": "paragraph",
+    "text": "Designing the course accommodations process for students and instructors across two different applications."
+  },
+  {
+    "type": "paragraph",
+    "text": "Role:"
+  },
+  {
+    "type": "paragraph",
+    "text": "User Experience Designer"
+  },
+  {
+    "type": "paragraph",
+    "text": "Date:"
+  },
+  {
+    "type": "paragraph",
+    "text": "July 2024- Current"
+  },
+  {
+    "type": "paragraph",
+    "text": "Tools:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Figma | Fig jam"
+  },
+  {
+    "type": "paragraph",
+    "text": "Team:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Business Analyst, Stakeholders, Developer"
+  },
+  {
+    "type": "paragraph",
+    "text": "Slides:"
+  },
+  {
+    "type": "paragraph",
+    "text": "Link to Slide Deck",
+    "links": [
+      {
+        "label": "Link to Slide Deck",
+        "href": "https://www.figma.com/proto/BP8pk67eZvpPFoB1w6IIIS/Accessibility-Services?t=IYtaZEIqb1Fz1OdP-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&node-id=1-2596&starting-point-node-id=1%3A2596"
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-1.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Project Overview",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "This project focuses on redesigning and improving the course accommodations process for students with accessibility needs at U of T. It includes developing a streamlined system within the student portal (ACORN), the instructor portal (CIS), and a vendor platform for Accessibility Services staff to manage accommodations efficiently. The goal is to remove barriers for students with disabilities, ensuring they can easily access the support they need to succeed in their courses."
+  },
+  {
+    "type": "heading",
+    "text": "Problem",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "Students with accommodation needs often face challenges navigating the full accommodations process, from registering with Accessibility Services to sending accommodation letters to instructors, leading to frustration and barriers to accessibility."
+  },
+  {
+    "type": "heading",
+    "text": "Summary Initial State Pain Points for all User Groups",
+    "level": 6
+  },
+  {
+    "type": "paragraph",
+    "text": "Student"
+  },
+  {
+    "type": "paragraph",
+    "text": "Registration status was not communicated clearly and on a timely basis."
+  },
+  {
+    "type": "paragraph",
+    "text": "Needing to send Letters of Accommdation to each course instructor is a hassle and easy to forget."
+  },
+  {
+    "type": "paragraph",
+    "text": "Not receiving notes from volunteer notetakers despite incidicating that it was an course accommodation need."
+  },
+  {
+    "type": "paragraph",
+    "text": "Instructor"
+  },
+  {
+    "type": "paragraph",
+    "text": "Difficulty keeping track of student accommodations due to manual email communications."
+  },
+  {
+    "type": "paragraph",
+    "text": "Difficulty knowing if there are changes to a Letter of Accommodation besides receiving updates from students."
+  },
+  {
+    "type": "paragraph",
+    "text": "Difficultly finding accessbility documents and templates to set up course accommodations."
+  },
+  {
+    "type": "paragraph",
+    "text": "Accessibility Services Staff"
+  },
+  {
+    "type": "paragraph",
+    "text": "Students often miss or are late to advisor appointments."
+  },
+  {
+    "type": "paragraph",
+    "text": "Does not know who to contact for course or notetaking based communications."
+  },
+  {
+    "type": "paragraph",
+    "text": "Tedious manual processing of student accommodation requests."
+  },
+  {
+    "type": "heading",
+    "text": "Understanding the Current and Future Processes",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "We focused on improving two key processes: the Course Accommodations request process and the Volunteer Note-taking process. These were the main pain points identified by both students and instructors."
+  },
+  {
+    "type": "paragraph",
+    "text": "Course Accommodations Request Process"
+  },
+  {
+    "type": "heading",
+    "text": "This process maps out the complete journey of a student requesting and receiving accommodations for their courses.",
+    "level": 3
+  },
+  {
+    "type": "heading",
+    "text": "Current:",
+    "level": 6
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-2.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Future:",
+    "level": 6
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-3.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Volunteer Notetaking Process"
+  },
+  {
+    "type": "heading",
+    "text": "The volunteer notetaking process covers the steps a student goes through to request and receiving notes from volunteer notetakers.",
+    "level": 3
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-4.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-5.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Designing the Student Experience",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "The current Accommodations page on ACORN houses the Accommodated testing area, which where students go to request and manage accommodations for their test and exams. We explored combining the course accommodations and accommodated testing content into one dashboard or having 2 separate cards on the page, distringuishing the separate areas."
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-6.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-7.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "In user interviews, 3 out of 5 students agreed that a dashboard approach would be easier to use, but they also mentioned that the alternative approach would not be difficult or confusing."
+  },
+  {
+    "type": "paragraph",
+    "text": "When we brought this to the development team, we learned that the Accommodated Testing area was built using older AngularJS code, while the team had since transitioned to Angular. Due to limited development capacity, we were unable to fully rebuild the older section in Angular to integrate it with the new Course Accommodations area. As a result, we kept the areas separate for the initial launch to stay on schedule."
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-8.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-9.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-10.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "User Interviews",
+    "level": 6
+  },
+  {
+    "type": "paragraph",
+    "text": "For the student side of this project, I conducted two rounds of user interviews with students with accessibility needs. The first round focused on initial sketches, exploring the location and layout of the Course Accommodations area, the accommodations list, and Letters of Accommodation. The second round was a feedback session in a presentation format, focusing on detailed interactions, features, and content."
+  },
+  {
+    "type": "paragraph",
+    "text": "My approach was to organize the designs on a FigJam board alongside relevant questions and share this screen with users during the interview. This allowed participants to view the questions alongside the designs for better context. The notetaker also recorded interview notes using sticky notes on the board, aligning them with each question to ensure clarity during analysis. This method supports lean UX practices by streamlining both the interview setup and analysis, making the research process more efficient compared to traditional user interviews practices."
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-11.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Interview Feedback",
+    "level": 6
+  },
+  {
+    "type": "paragraph",
+    "text": "Add ability to hide/reveal accommodation details for student privacy."
+  },
+  {
+    "type": "paragraph",
+    "text": "Include a more detailed description of the new features introduced and contact info, ensuring that language is accessible."
+  },
+  {
+    "type": "paragraph",
+    "text": "Displaying number of student accommodations is unnecessary."
+  },
+  {
+    "type": "paragraph",
+    "text": "Add a confirmation flow to ensure student do not accidentally send a Letter of Accommodation."
+  },
+  {
+    "type": "heading",
+    "text": "Updated Design",
+    "level": 6
+  },
+  {
+    "type": "heading",
+    "text": "Accessibility Considerations",
+    "level": 6
+  },
+  {
+    "type": "paragraph",
+    "text": "All U of T websites and platforms must comply with WCAG 2.1 AA standards to ensure accessibility and usability for all users. Given that this project specifically serves students with accessibility needs, maintaining these standards was especially important."
+  },
+  {
+    "type": "paragraph",
+    "text": "One key improvement I made was replacing the tooltip component in the design system with a popover. Testing designs with screen readers like NVDA for Windows or VoiceOver for Mac helps evaluate how students using screen readers or keyboard navigation accommodations experience the interface. Tooltips require users to hover over an area with a cursor, which is not accessible for screen reader users. In contrast, the popover component is a more accessible alternative, allowing users to open and close it with their keyboard. Additionally, the popover icon is more visible than the underline typically used to indicate a tooltip hover, improving overall usability."
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-12.png",
+    "alt": ""
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-13.png",
+    "alt": ""
+  },
+  {
+    "type": "heading",
+    "text": "Designing the Instructor Experience",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "Similar to the student side, the challenge for instructors was integrating the Course Accommodations area into the existing Course Information System (CIS). This process involved creating mock-ups based on requirements and testing them with instructors who actively use CIS and have experience managing student accommodations in their courses."
+  },
+  {
+    "type": "heading",
+    "text": "Summary of Accommodations Flow",
+    "level": 6
+  },
+  {
+    "type": "heading",
+    "text": "Volunteer Notetaking Flow",
+    "level": 6
+  },
+  {
+    "type": "paragraph",
+    "text": "I conducted two rounds of user interviews with instructors using the same interview method to understand their current approach to handling student accommodation requests, identify pain points, and gather feedback on the Summary of Student Accommodations, Letters of Accommodation, and Volunteer Student Notetaking sections."
+  },
+  {
+    "type": "image",
+    "src": "images/accessibilityservices-14.png",
+    "alt": ""
+  },
+  {
+    "type": "paragraph",
+    "text": "Add the ability to filter by Lecture, Practical, and Tutorial for Summary and Letters of Accommodations."
+  },
+  {
+    "type": "paragraph",
+    "text": "Ability to view voluteer notes is unecessary and pushing more work on instructors."
+  },
+  {
+    "type": "paragraph",
+    "text": "The next steps are to implement instructor feedback to the designs, as this is an on-going project."
+  },
+  {
+    "type": "heading",
+    "text": "Impact",
+    "level": 5
+  },
+  {
+    "type": "paragraph",
+    "text": "This project aims to enhance the student accommodation process, making it easier for students to register and request course accommodations while reducing stress and challenges for an already marginalized group. It will also streamline workflows for instructors and staff, ensuring student requests are addressed more efficiently and accurately."
+  }
+]
