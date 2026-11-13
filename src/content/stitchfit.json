@@ -351,6 +351,7 @@
               {
                 "type": "video",
                 "src": "videos/stitchfit-onboarding.mp4",
+                "zoom": 1.025,
                 "alt": "StitchFit: App introduction",
                 "aspectRatio": 0.6666666666666666,
                 "poster": "videos/stitchfit-onboarding.jpg",
@@ -376,6 +377,7 @@
               {
                 "type": "video",
                 "src": "videos/stitchfit-photo-sizing.mp4",
+                "zoom": 1.025,
                 "alt": "StitchFit: Measuring Size",
                 "aspectRatio": 0.5625,
                 "poster": "videos/stitchfit-photo-sizing.jpg",

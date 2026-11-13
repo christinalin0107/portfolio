@@ -17,6 +17,7 @@ export interface ContentBlock {
   aspectRatio?: number;
   poster?: string;
   radius?: number;
+  zoom?: number;
   step?: number;
   title?: string;
 }
