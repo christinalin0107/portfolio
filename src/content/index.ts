@@ -16,6 +16,9 @@ export interface ContentBlock {
   ordered?: boolean;
   aspectRatio?: number;
   poster?: string;
+  radius?: number;
+  step?: number;
+  title?: string;
 }
 export interface InlineContent {
   type: 'text' | 'break' | 'span' | 'strong' | 'emphasis' | 'underline' | 'link';

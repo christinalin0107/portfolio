@@ -341,208 +341,103 @@
         ]
       },
       {
-        "type": "columns",
-        "spacing": "normal",
-        "ratios": [
-          100,
-          100
-        ],
+        "type": "videoGallery",
         "children": [
           {
-            "type": "stack",
-            "spacing": "compact",
+            "type": "videoDemo",
+            "step": 1,
+            "title": "App introduction",
             "children": [
               {
                 "type": "video",
                 "src": "videos/stitchfit-onboarding.mp4",
-                "alt": "Project prototype demonstration",
+                "alt": "StitchFit: App introduction",
                 "aspectRatio": 0.6666666666666666,
-                "poster": "videos/stitchfit-onboarding.jpg"
+                "poster": "videos/stitchfit-onboarding.jpg",
+                "radius": 0
               },
               {
                 "type": "richText",
-                "role": "subsection",
+                "role": "caption",
                 "content": [
                   {
                     "type": "text",
-                    "text": "1"
-                  }
-                ],
-                "level": 2
-              },
-              {
-                "type": "stack",
-                "spacing": "small",
-                "children": [
-                  {
-                    "type": "richText",
-                    "role": "body",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "App introduction"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "When a user opens the app for the first time, they are greeted with an introduction and a tutorial, complete with images showcasing the app's features."
-                      }
-                    ]
+                    "text": "When a user opens the app for the first time, they are greeted with an introduction and a tutorial, complete with images showcasing the app's features."
                   }
                 ]
               }
             ]
           },
           {
-            "type": "stack",
-            "spacing": "compact",
+            "type": "videoDemo",
+            "step": 2,
+            "title": "Measuring Size",
             "children": [
               {
                 "type": "video",
                 "src": "videos/stitchfit-photo-sizing.mp4",
-                "alt": "photo sizing",
+                "alt": "StitchFit: Measuring Size",
                 "aspectRatio": 0.5625,
-                "poster": "videos/stitchfit-photo-sizing.jpg"
+                "poster": "videos/stitchfit-photo-sizing.jpg",
+                "radius": 0
               },
               {
                 "type": "richText",
-                "role": "subsection",
+                "role": "caption",
                 "content": [
                   {
                     "type": "text",
-                    "text": "2"
-                  }
-                ],
-                "level": 2
-              },
-              {
-                "type": "stack",
-                "spacing": "small",
-                "children": [
-                  {
-                    "type": "richText",
-                    "role": "body",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Measuring Size"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Users are prompted to select their sizing preferences and optionally input their measurements for greater accuracy. They the can follow on-screen directions to complete the photo-sizing process. "
-                      }
-                    ]
+                    "text": "Users are prompted to select their sizing preferences and optionally input their measurements for greater accuracy. They the can follow on-screen directions to complete the photo-sizing process. "
                   }
                 ]
               }
             ]
           },
           {
-            "type": "stack",
-            "spacing": "compact",
+            "type": "videoDemo",
+            "step": 3,
+            "title": "Create Profile",
             "children": [
               {
                 "type": "video",
                 "src": "videos/stitchfit-user-profile.mp4",
-                "alt": "user profile",
+                "alt": "StitchFit: Create Profile",
                 "aspectRatio": 0.46335697399527187,
-                "poster": "videos/stitchfit-user-profile.jpg"
+                "poster": "videos/stitchfit-user-profile.jpg",
+                "radius": 0
               },
               {
                 "type": "richText",
-                "role": "subsection",
+                "role": "caption",
                 "content": [
                   {
                     "type": "text",
-                    "text": "3"
-                  }
-                ],
-                "level": 2
-              },
-              {
-                "type": "stack",
-                "spacing": "small",
-                "children": [
-                  {
-                    "type": "richText",
-                    "role": "body",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Create Profile"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "After being presented with their sizing results, users are prompted to save their size details by creating a user profile."
-                      }
-                    ]
+                    "text": "After being presented with their sizing results, users are prompted to save their size details by creating a user profile."
                   }
                 ]
               }
             ]
           },
           {
-            "type": "stack",
-            "spacing": "compact",
+            "type": "videoDemo",
+            "step": 4,
+            "title": "Buying Items",
             "children": [
-              {
-                "type": "richText",
-                "role": "subsection",
-                "content": [
-                  {
-                    "type": "text",
-                    "text": "4"
-                  }
-                ],
-                "level": 2
-              },
               {
                 "type": "video",
                 "src": "videos/stitchfit-purchasing.mp4",
-                "alt": "Purchasing",
+                "alt": "StitchFit: Buying Items",
                 "aspectRatio": 0.46335697399527187,
-                "poster": "videos/stitchfit-purchasing.jpg"
+                "poster": "videos/stitchfit-purchasing.jpg",
+                "radius": 0
               },
               {
-                "type": "stack",
-                "spacing": "small",
-                "children": [
+                "type": "richText",
+                "role": "caption",
+                "content": [
                   {
-                    "type": "richText",
-                    "role": "body",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Buying Items"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "The items on the homepage are generated from the users brand preferences as well as sizing results. They can view individual items, look at reviews and add the item to their bag. "
-                      }
-                    ]
+                    "type": "text",
+                    "text": "The items on the homepage are generated from the users brand preferences as well as sizing results. They can view individual items, look at reviews and add the item to their bag. "
                   }
                 ]
               }

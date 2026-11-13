@@ -794,7 +794,8 @@
             "src": "videos/accessibility-student-experience.mp4",
             "alt": "Project prototype demonstration",
             "aspectRatio": 1.7403381642512077,
-            "poster": "videos/accessibility-student-experience.jpg"
+            "poster": "videos/accessibility-student-experience.jpg",
+            "radius": 0
           },
           {
             "type": "richText",
@@ -896,7 +897,8 @@
             "src": "videos/accessibility-instructor-experience.mp4",
             "alt": "Project prototype demonstration",
             "aspectRatio": 1.7403381642512077,
-            "poster": "videos/accessibility-instructor-experience.jpg"
+            "poster": "videos/accessibility-instructor-experience.jpg",
+            "radius": 0
           },
           {
             "type": "richText",
@@ -914,7 +916,8 @@
             "src": "videos/accessibility-instructor-workflow.mp4",
             "alt": "Project prototype demonstration",
             "aspectRatio": 1.7403381642512077,
-            "poster": "videos/accessibility-instructor-workflow.jpg"
+            "poster": "videos/accessibility-instructor-workflow.jpg",
+            "radius": 0
           },
           {
             "type": "richText",

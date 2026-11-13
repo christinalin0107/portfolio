@@ -292,7 +292,8 @@
         "src": "videos/information-security-homepage.mp4",
         "alt": "Project prototype demonstration",
         "aspectRatio": 1.75390625,
-        "poster": "videos/information-security-homepage.jpg"
+        "poster": "videos/information-security-homepage.jpg",
+        "radius": 40
       },
       {
         "type": "stack",
@@ -697,7 +698,8 @@
             "src": "videos/information-security-user-resources.mp4",
             "alt": "Project prototype demonstration",
             "aspectRatio": 1.7753623188405796,
-            "poster": "videos/information-security-user-resources.jpg"
+            "poster": "videos/information-security-user-resources.jpg",
+            "radius": 20
           }
         ]
       },
@@ -731,7 +733,8 @@
             "src": "videos/information-security-initial-service-catalog.mp4",
             "alt": "Project prototype demonstration",
             "aspectRatio": 1.7330917874396135,
-            "poster": "videos/information-security-initial-service-catalog.jpg"
+            "poster": "videos/information-security-initial-service-catalog.jpg",
+            "radius": 20
           }
         ]
       },
@@ -765,7 +768,8 @@
             "src": "videos/information-security-updated-service-catalog.mp4",
             "alt": "Project prototype demonstration",
             "aspectRatio": 1.7753623188405796,
-            "poster": "videos/information-security-updated-service-catalog.jpg"
+            "poster": "videos/information-security-updated-service-catalog.jpg",
+            "radius": 20
           }
         ]
       },
@@ -836,7 +840,8 @@
             "src": "videos/information-security-incident-reporting.mp4",
             "alt": "Project prototype demonstration",
             "aspectRatio": 1.7753623188405796,
-            "poster": "videos/information-security-incident-reporting.jpg"
+            "poster": "videos/information-security-incident-reporting.jpg",
+            "radius": 20
           },
           {
             "type": "richText",
