@@ -10,6 +10,7 @@ function RichText({ content }: { content: InlineContent[] }) {
       case 'strong': return <strong key={index}>{children}</strong>;
       case 'emphasis': return <em key={index}>{children}</em>;
       case 'underline': return <u key={index}>{children}</u>;
+      case 'highlight': return <span className="study-highlight" key={index}>{children}</span>;
       case 'link': return node.href ? <a key={index} href={node.href} target="_blank" rel="noreferrer">{children}</a> : <Fragment key={index}>{children}</Fragment>;
       default: return <Fragment key={index}>{children}</Fragment>;
     }
@@ -18,6 +19,10 @@ function RichText({ content }: { content: InlineContent[] }) {
 
 function ContentGroup({ block }: { block: ContentBlock }) {
   const children = block.children?.map((child, index) => <ContentGroup block={child} key={index} />);
+  if (block.type === 'card') {
+    const Card = block.variant === 'quote' ? 'blockquote' : 'div';
+    return <Card className={`study-card study-card--${block.variant || 'research'}`}>{block.icon && <img className="study-card-icon" src={assetUrl(block.icon)} alt="" aria-hidden="true" width={56} height={56} />}{children}</Card>;
+  }
   if (block.type === 'image') return <figure className="study-image"><img src={assetUrl(block.src!)} alt={block.alt || ''} loading="lazy" /></figure>;
   if (block.type === 'video') return <StudyVideo block={block} />;
   if (block.type === 'videoGallery') return <div className="demo-gallery">{children}</div>;

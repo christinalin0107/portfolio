@@ -246,68 +246,96 @@
         ],
         "children": [
           {
-            "type": "richText",
-            "role": "caption",
-            "content": [
+            "type": "card",
+            "variant": "research",
+            "icon": "images/stitchfit-clothing-sizing-icon.svg",
+            "children": [
               {
-                "type": "text",
-                "text": "Inconsistency in clothing sizing exists due to "
-              },
-              {
-                "type": "span",
-                "children": [
+                "type": "richText",
+                "role": "body",
+                "content": [
                   {
                     "type": "text",
-                    "text": "vanity sizing "
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "text": "that emerged in the 20th century as well as different styles across different brands."
-              }
-            ]
-          },
-          {
-            "type": "richText",
-            "role": "caption",
-            "content": [
-              {
-                "type": "text",
-                "text": "Sizing inconsistency in the fashion industry is an issue for shoppers, businesses, and the environment."
-              }
-            ]
-          },
-          {
-            "type": "richText",
-            "role": "caption",
-            "content": [
-              {
-                "type": "text",
-                "text": "Shoppers "
-              },
-              {
-                "type": "strong",
-                "children": [
+                    "text": "Inconsistency in clothing sizing exists due to "
+                  },
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "vanity sizing "
+                      }
+                    ]
+                  },
                   {
                     "type": "text",
-                    "text": "bracket purchase"
+                    "text": "that emerged in the 20th century as well as different styles across different brands."
                   }
                 ]
-              },
-              {
-                "type": "text",
-                "text": " clothing and return the wrong sized clothing to combat this existing issue they face."
               }
             ]
           },
           {
-            "type": "richText",
-            "role": "caption",
-            "content": [
+            "type": "card",
+            "variant": "research",
+            "icon": "images/stitchfit-industry-impact-icon.svg",
+            "children": [
               {
-                "type": "text",
-                "text": "There are some solutions towards the issue of clothing size inconsistency such as plug-ins for online retail stores as well as more experimental solutions "
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Sizing inconsistency in the fashion industry is an issue for shoppers, businesses, and the environment."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "variant": "research",
+            "icon": "images/stitchfit-shopping-returns-icon.svg",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Shoppers "
+                  },
+                  {
+                    "type": "strong",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "bracket purchase"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " clothing and return the wrong sized clothing to combat this existing issue they face."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "variant": "research",
+            "icon": "images/stitchfit-sizing-solutions-icon.svg",
+            "children": [
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "There are some solutions towards the issue of clothing size inconsistency such as plug-ins for online retail stores as well as more experimental solutions "
+                  }
+                ]
               }
             ]
           }
@@ -499,108 +527,132 @@
             ],
             "children": [
               {
-                "type": "richText",
-                "role": "body",
-                "content": [
+                "type": "card",
+                "variant": "quote",
+                "children": [
                   {
-                    "type": "text",
-                    "text": "\"It's important for the online store to have a "
-                  },
-                  {
-                    "type": "span",
-                    "children": [
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
                       {
                         "type": "text",
-                        "text": "good return policy"
+                        "text": "\"It's important for the online store to have a "
+                      },
+                      {
+                        "type": "highlight",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "good return policy"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": ", and it played a factor in whether they were willing to purchase from the store.\""
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "text": ", and it played a factor in whether they were willing to purchase from the store.\""
                   }
                 ]
               },
               {
-                "type": "richText",
-                "role": "body",
-                "content": [
+                "type": "card",
+                "variant": "quote",
+                "children": [
                   {
-                    "type": "text",
-                    "text": "\"Sizes are "
-                  },
-                  {
-                    "type": "span",
-                    "children": [
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
                       {
                         "type": "text",
-                        "text": "inconsistent"
+                        "text": "\"Sizes are "
+                      },
+                      {
+                        "type": "highlight",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "inconsistent"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " more between brand than within brands but fabric stretch can make sizes within brands inconsistent\""
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "text": " more between brand than within brands but fabric stretch can make sizes within brands inconsistent\""
                   }
                 ]
               },
               {
-                "type": "richText",
-                "role": "body",
-                "content": [
+                "type": "card",
+                "variant": "quote",
+                "children": [
                   {
-                    "type": "span",
-                    "children": [
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "span",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "\" "
+                          }
+                        ]
+                      },
+                      {
+                        "type": "highlight",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Reviews and images "
+                          }
+                        ]
+                      },
                       {
                         "type": "text",
-                        "text": "\" "
+                        "text": "play a large part in how I determine my size online.\""
                       }
                     ]
-                  },
-                  {
-                    "type": "span",
-                    "children": [
-                      {
-                        "type": "text",
-                        "text": "Reviews and images "
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "text": "play a large part in how I determine my size online.\""
                   }
                 ]
               },
               {
-                "type": "richText",
-                "role": "body",
-                "content": [
+                "type": "card",
+                "variant": "quote",
+                "children": [
                   {
-                    "type": "text",
-                    "text": "\" If I am in between 2 sizes, I will decide if I prefer a "
-                  },
-                  {
-                    "type": "span",
-                    "children": [
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
                       {
                         "type": "text",
-                        "text": "looser"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "span",
-                    "children": [
+                        "text": "\" If I am in between 2 sizes, I will decide if I prefer a "
+                      },
+                      {
+                        "type": "highlight",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "looser"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "highlight",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": " or tighter fit "
+                          }
+                        ]
+                      },
                       {
                         "type": "text",
-                        "text": " or tighter fit "
+                        "text": "and then choose my size according to that.\""
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "text": "and then choose my size according to that.\""
                   }
                 ]
               }
@@ -1020,8 +1072,8 @@
         ],
         "children": [
           {
-            "type": "stack",
-            "spacing": "small",
+            "type": "card",
+            "variant": "annotation",
             "children": [
               {
                 "type": "richText",
@@ -1034,28 +1086,22 @@
                 ]
               },
               {
-                "type": "stack",
-                "spacing": "compact",
-                "children": [
+                "type": "richText",
+                "role": "body",
+                "content": [
                   {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Users can skip the size set up and go straight to the homepage to browse popular items. "
-                      }
-                    ]
-                  },
+                    "type": "text",
+                    "text": "Users can skip the size set up and go straight to the homepage to browse popular items. "
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
                   {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "They will be prompted to complete size set up to get personalized suggestions. "
-                      }
-                    ]
+                    "type": "text",
+                    "text": "They will be prompted to complete size set up to get personalized suggestions. "
                   }
                 ]
               }
@@ -1105,8 +1151,8 @@
         ],
         "children": [
           {
-            "type": "stack",
-            "spacing": "small",
+            "type": "card",
+            "variant": "annotation",
             "children": [
               {
                 "type": "richText",
@@ -1119,28 +1165,22 @@
                 ]
               },
               {
-                "type": "stack",
-                "spacing": "compact",
-                "children": [
+                "type": "richText",
+                "role": "body",
+                "content": [
                   {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Users can skip creating their user profile after their size set up to browse clothing items in their size. "
-                      }
-                    ]
-                  },
+                    "type": "text",
+                    "text": "Users can skip creating their user profile after their size set up to browse clothing items in their size. "
+                  }
+                ]
+              },
+              {
+                "type": "richText",
+                "role": "body",
+                "content": [
                   {
-                    "type": "richText",
-                    "role": "caption",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Users are prompted to create their user profile to save their sizing details. "
-                      }
-                    ]
+                    "type": "text",
+                    "text": "Users are prompted to create their user profile to save their sizing details. "
                   }
                 ]
               }
@@ -1190,8 +1230,8 @@
         ],
         "children": [
           {
-            "type": "stack",
-            "spacing": "small",
+            "type": "card",
+            "variant": "annotation",
             "children": [
               {
                 "type": "richText",
@@ -1205,7 +1245,7 @@
               },
               {
                 "type": "richText",
-                "role": "caption",
+                "role": "body",
                 "content": [
                   {
                     "type": "text",
@@ -1318,12 +1358,18 @@
             "alt": ""
           },
           {
-            "type": "richText",
-            "role": "caption",
-            "content": [
+            "type": "card",
+            "variant": "annotation",
+            "children": [
               {
-                "type": "text",
-                "text": "I moved the order history to the front page of the profile so that it is easier for users to find."
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "I moved the order history to the front page of the profile so that it is easier for users to find."
+                  }
+                ]
               }
             ]
           }
@@ -1350,12 +1396,18 @@
             "alt": ""
           },
           {
-            "type": "richText",
-            "role": "caption",
-            "content": [
+            "type": "card",
+            "variant": "annotation",
+            "children": [
               {
-                "type": "text",
-                "text": "I moved the 'add the closet' button next to the 'add to bag' button and changed it to a heart icon so that it is more intuitive and easier to find for users."
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "I moved the 'add the closet' button next to the 'add to bag' button and changed it to a heart icon so that it is more intuitive and easier to find for users."
+                  }
+                ]
               }
             ]
           }
@@ -1382,12 +1434,18 @@
             "alt": ""
           },
           {
-            "type": "richText",
-            "role": "caption",
-            "content": [
+            "type": "card",
+            "variant": "annotation",
+            "children": [
               {
-                "type": "text",
-                "text": "I added a pop-up that controls settings for the photo sizing process."
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "I added a pop-up that controls settings for the photo sizing process."
+                  }
+                ]
               }
             ]
           }
@@ -1414,12 +1472,18 @@
             "alt": ""
           },
           {
-            "type": "richText",
-            "role": "caption",
-            "content": [
+            "type": "card",
+            "variant": "annotation",
+            "children": [
               {
-                "type": "text",
-                "text": "I added the link to view in bag on the pop-up so that it is more visible for users."
+                "type": "richText",
+                "role": "body",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "I added the link to view in bag on the pop-up so that it is more visible for users."
+                  }
+                ]
               }
             ]
           }
@@ -1450,32 +1514,53 @@
             ],
             "children": [
               {
-                "type": "richText",
-                "role": "caption",
-                "content": [
+                "type": "card",
+                "variant": "research",
+                "icon": "images/stitchfit-quick-setup-icon.svg",
+                "children": [
                   {
-                    "type": "text",
-                    "text": "The set-up process for an app should be quick and simple, giving the user a choice to skip certain choices. "
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "The set-up process for an app should be quick and simple, giving the user a choice to skip certain choices. "
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "type": "richText",
-                "role": "caption",
-                "content": [
+                "type": "card",
+                "variant": "research",
+                "icon": "images/stitchfit-user-needs-icon.svg",
+                "children": [
                   {
-                    "type": "text",
-                    "text": "It is important to keep the user's needs in mind throughout the whole design process. "
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "It is important to keep the user's needs in mind throughout the whole design process. "
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "type": "richText",
-                "role": "caption",
-                "content": [
+                "type": "card",
+                "variant": "research",
+                "icon": "images/stitchfit-usability-testing-icon.svg",
+                "children": [
                   {
-                    "type": "text",
-                    "text": "Usability testing is important throughout the design process and will reveal usability issues that you did not predict. "
+                    "type": "richText",
+                    "role": "body",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Usability testing is important throughout the design process and will reveal usability issues that you did not predict. "
+                      }
+                    ]
                   }
                 ]
               }

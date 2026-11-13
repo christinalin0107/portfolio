@@ -27,6 +27,16 @@
 .study-text--caption { font-size: 16px; font-weight: 400; line-height: 1.625; }
 .study-text strong { font-weight: 700; }
 .study-text a { text-decoration: underline; text-underline-offset: 3px; }
+.study-highlight { color: #ff7c7c; }
+.study-card { margin: 0; min-width: 0; height: 100%; padding: 20px; display: flex; flex-direction: column; justify-content: center; gap: 16px; border-radius: 12px; background: #f9fafb; }
+.study-card--research, .study-card--quote { min-height: 260px; }
+.study-card-icon { width: 56px; height: 56px; align-self: center; flex-shrink: 0; }
+.study-card .study-text { max-width: none; font-size: 14px; line-height: 2; font-weight: 400; color: #4b4b4b; }
+.study-card--quote { padding: 32px; }
+.study-card--quote .study-text { font-size: 18px; line-height: 1.5; font-weight: 500; color: #111; }
+.study-card--annotation { min-height: 260px; padding: 24px 18px; gap: 12px; }
+.study-card--annotation .study-text:first-child:not(:last-child) { font-size: 18px; line-height: 1.5; font-weight: 500; color: #262626; }
+.study-columns:has(> .study-card) { align-items: stretch; gap: 32px; }
 .study-image { margin: 0; min-width: 0; }
 .study-image img { width: 100%; height: auto; }
 .study-video { position: relative; margin: 0; min-width: 0; width: 100%; overflow: hidden; border-radius: var(--video-radius, 0); background: #f2f3f6; }
@@ -60,10 +70,13 @@
 .study-list > li > .study-text--subsection { font-size: inherit; font-weight: inherit; }
 .study-list > li > .study-stack { gap: 16px; }
 @media (max-width: 1000px) {
+  .study-columns:has(> .study-card:nth-child(3)) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .study-text--section { font-size: 42px; }
   .study-columns:has(.study-text--title) { grid-template-columns: 1fr; gap: 40px; }
 }
 @media (max-width: 800px) {
+  .study-columns:has(> .study-card:nth-child(3)) { grid-template-columns: 1fr; }
+  .study-card--quote, .study-card--annotation { min-height: 0; }
   .demo-gallery { grid-template-columns: 1fr; }
   .demo-card { display: flex; flex-direction: column; align-items: center; min-height: 0; padding: 24px 18px; gap: 32px; }
   .demo-copy { width: 100%; margin: 0; gap: 16px; }

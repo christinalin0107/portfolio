@@ -23,6 +23,7 @@ pnpm dev
 - `public/videos/`: local prototype recordings and JPEG preview images. Video blocks use `src`, `poster`, `aspectRatio`, and `radius`. The shared player loops muted previews when visible and provides play/pause controls. Reduced-motion preferences disable automatic playback. `videoGallery` groups `videoDemo` cards, each containing a step, title, phone video, and caption content.
 - `src/components/`: reusable layout, project card, and content rendering.
 - `src/pages/`: page composition.
+- Case-study `card` blocks use `research`, `quote`, or `annotation` variants. An optional `icon` references a local image; inline `highlight` nodes preserve emphasized phrases.
 - `src/styles.css`: shared design tokens and responsive styles.
 
 Add a project record and matching content file to create a project. The build creates its direct-link entry automatically. Existing Framer URL slugs are preserved.

@@ -20,9 +20,11 @@ export interface ContentBlock {
   zoom?: number;
   step?: number;
   title?: string;
+  variant?: 'research' | 'quote' | 'annotation';
+  icon?: string;
 }
 export interface InlineContent {
-  type: 'text' | 'break' | 'span' | 'strong' | 'emphasis' | 'underline' | 'link';
+  type: 'text' | 'break' | 'span' | 'strong' | 'emphasis' | 'underline' | 'link' | 'highlight';
   text?: string;
   href?: string;
   children?: InlineContent[];
