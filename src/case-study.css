@@ -29,6 +29,8 @@
 .study-text a { text-decoration: underline; text-underline-offset: 3px; }
 .study-image { margin: 0; min-width: 0; }
 .study-image img { width: 100%; height: auto; }
+.study-video { margin: 0; min-width: 0; width: 100%; overflow: hidden; border-radius: 8px; background: #f2f3f6; }
+.study-video video { display: block; width: 100%; height: 100%; object-fit: contain; }
 .study-list { padding-left: 28px; margin: 0; display: flex; flex-direction: column; gap: 20px; }
 .study-list > li { padding-left: 4px; font-size: 18px; font-weight: 500; line-height: 1.65; }
 .study-list > li:has(> .study-text--caption:first-child) { font-size: 16px; font-weight: 400; }

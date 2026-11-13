@@ -288,6 +288,13 @@
         ]
       },
       {
+        "type": "video",
+        "src": "videos/information-security-homepage.mp4",
+        "alt": "Project prototype demonstration",
+        "aspectRatio": 1.75390625,
+        "poster": "videos/information-security-homepage.jpg"
+      },
+      {
         "type": "stack",
         "spacing": "normal",
         "children": [
@@ -684,6 +691,13 @@
                 "text": "Having the option to explore resources for student, staff and faculty on the home page allows new users to easily navigate to information that is relevant to them and acts as a call to action to explore resources. Using simple language to explain resources makes them easier for users to understand."
               }
             ]
+          },
+          {
+            "type": "video",
+            "src": "videos/information-security-user-resources.mp4",
+            "alt": "Project prototype demonstration",
+            "aspectRatio": 1.7753623188405796,
+            "poster": "videos/information-security-user-resources.jpg"
           }
         ]
       },
@@ -711,6 +725,13 @@
                 "text": "Designing the services catalog was challenging because we needed to categorize services by both audience type and category. The initial solution was to use multi-select dropdown menus, allowing users to filter by audience and category. This made it easier for users to search and find the specific services they needed."
               }
             ]
+          },
+          {
+            "type": "video",
+            "src": "videos/information-security-initial-service-catalog.mp4",
+            "alt": "Project prototype demonstration",
+            "aspectRatio": 1.7330917874396135,
+            "poster": "videos/information-security-initial-service-catalog.jpg"
           }
         ]
       },
@@ -738,6 +759,13 @@
                 "text": "Due to the technical limitations of the WordPress website, we had to adjust the design while maintaining the same functionality. I implemented top and side navigation to help users explore service categories, along with a search bar for finding specific services. "
               }
             ]
+          },
+          {
+            "type": "video",
+            "src": "videos/information-security-updated-service-catalog.mp4",
+            "alt": "Project prototype demonstration",
+            "aspectRatio": 1.7753623188405796,
+            "poster": "videos/information-security-updated-service-catalog.jpg"
           }
         ]
       },
@@ -802,6 +830,13 @@
                 "text": "To improve the usability and accessibility of this page, I moved the button to a sticky banner under the main header that gives users context about the type of incident that would be addressed once they click \" Report an Incident\".  This banner will also be on all pages of this website in case users need to access it on another page. The webpage also uses cards to clearly explain different security situations to users and how to handle them. "
               }
             ]
+          },
+          {
+            "type": "video",
+            "src": "videos/information-security-incident-reporting.mp4",
+            "alt": "Project prototype demonstration",
+            "aspectRatio": 1.7753623188405796,
+            "poster": "videos/information-security-incident-reporting.jpg"
           },
           {
             "type": "richText",

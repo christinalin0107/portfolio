@@ -20,6 +20,7 @@ pnpm dev
 - `src/content/projects.json`: project names, categories, tags, and cover images.
 - `src/content/<slug>.json`: case-study layout groups and rich text. `stack` groups vertical content, `columns` groups related content side by side, `metadataRow` pairs project labels and values, and `list` preserves numbered or bulleted items. Rich text preserves emphasis, links, and line breaks. The About page uses the original flat content format.
 - `public/images/`: original downloaded images. Content paths omit the leading slash.
+- `public/videos/`: local prototype recordings and JPEG preview images. Video blocks use `src`, `poster`, and `aspectRatio`; the shared player supplies native playback controls and inline mobile playback.
 - `src/components/`: reusable layout, project card, and content rendering.
 - `src/pages/`: page composition.
 - `src/styles.css`: shared design tokens and responsive styles.

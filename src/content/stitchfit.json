@@ -353,6 +353,13 @@
             "spacing": "compact",
             "children": [
               {
+                "type": "video",
+                "src": "videos/stitchfit-onboarding.mp4",
+                "alt": "Project prototype demonstration",
+                "aspectRatio": 0.6666666666666666,
+                "poster": "videos/stitchfit-onboarding.jpg"
+              },
+              {
                 "type": "richText",
                 "role": "subsection",
                 "content": [
@@ -396,6 +403,13 @@
             "spacing": "compact",
             "children": [
               {
+                "type": "video",
+                "src": "videos/stitchfit-photo-sizing.mp4",
+                "alt": "photo sizing",
+                "aspectRatio": 0.5625,
+                "poster": "videos/stitchfit-photo-sizing.jpg"
+              },
+              {
                 "type": "richText",
                 "role": "subsection",
                 "content": [
@@ -438,6 +452,13 @@
             "type": "stack",
             "spacing": "compact",
             "children": [
+              {
+                "type": "video",
+                "src": "videos/stitchfit-user-profile.mp4",
+                "alt": "user profile",
+                "aspectRatio": 0.46335697399527187,
+                "poster": "videos/stitchfit-user-profile.jpg"
+              },
               {
                 "type": "richText",
                 "role": "subsection",
@@ -491,6 +512,13 @@
                   }
                 ],
                 "level": 2
+              },
+              {
+                "type": "video",
+                "src": "videos/stitchfit-purchasing.mp4",
+                "alt": "Purchasing",
+                "aspectRatio": 0.46335697399527187,
+                "poster": "videos/stitchfit-purchasing.jpg"
               },
               {
                 "type": "stack",

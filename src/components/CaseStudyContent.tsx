@@ -18,6 +18,7 @@ function RichText({ content }: { content: InlineContent[] }) {
 function ContentGroup({ block }: { block: ContentBlock }) {
   const children = block.children?.map((child, index) => <ContentGroup block={child} key={index} />);
   if (block.type === 'image') return <figure className="study-image"><img src={assetUrl(block.src!)} alt={block.alt || ''} loading="lazy" /></figure>;
+  if (block.type === 'video') return <figure className="study-video" style={{ aspectRatio: block.aspectRatio || 16 / 9 }}><video controls playsInline preload="metadata" poster={block.poster ? assetUrl(block.poster) : undefined} aria-label={block.alt || 'Project demonstration'}><source src={assetUrl(block.src!)} type="video/mp4" /><a href={assetUrl(block.src!)}>View video</a></video></figure>;
   if (block.type === 'richText') {
     const Heading = block.level === 1 ? 'h1' : block.level === 2 ? 'h2' : block.level === 3 ? 'h3' : 'p';
     return <Heading className={`study-text study-text--${block.role}`}><RichText content={block.content || []} /></Heading>;

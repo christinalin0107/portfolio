@@ -14,6 +14,8 @@ export interface ContentBlock {
   spacing?: 'compact' | 'small' | 'normal' | 'large' | 'section';
   ratios?: number[];
   ordered?: boolean;
+  aspectRatio?: number;
+  poster?: string;
 }
 export interface InlineContent {
   type: 'text' | 'break' | 'span' | 'strong' | 'emphasis' | 'underline' | 'link';
