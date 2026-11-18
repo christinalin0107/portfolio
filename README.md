@@ -26,7 +26,7 @@ pnpm dev
 - Case-study `card` blocks use `research`, `quote`, or `annotation` variants. An optional `icon` references a local image; inline `highlight` nodes preserve emphasized phrases.
 - `src/styles.css`: shared design tokens and responsive styles.
 - `public/images/pastel/`: original artwork exported from the Figma mockup, stored locally with its source dimensions.
-- `src/hooks/useDayNightScroll.ts`: scroll-driven sky colours, sun movement, and night visibility. Reduced-motion preferences keep the illustrated sections static.
+- `src/hooks/useDayNightScroll.ts`: a fixed sky behind the homepage changes continuously from blue daylight through peach sunset to deep night as the projects scroll. The sun descends and the moon/stars fade in. Reduced-motion preferences disable sun/moon movement; sky colours still follow the page position. Project cards stay two per row above the phone breakpoint, with edge-to-edge cover images.
 
 ## Versions
 
