@@ -1,18 +1,25 @@
 import { useEffect } from 'react';
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { ArrowUp } from 'lucide-react';
-import { assetUrl, site } from '../content';
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
+import { ArrowUp, Asterisk } from 'lucide-react';
+import { site } from '../content';
+import { DesignArtwork } from './DesignArtwork';
 
 export function SiteLayout() {
-  const { pathname } = useLocation();
-  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  const { pathname, hash } = useLocation();
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      if (hash) document.getElementById(hash.slice(1))?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      else window.scrollTo(0, 0);
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [pathname, hash]);
   return <>
     <a className="skip-link" href="#main">Skip to content</a>
     <header className="site-header"><div className="header-inner">
-      <NavLink to="/" aria-label="Christina Lin home"><img className="wordmark" src={assetUrl(site.logo)} alt="Christina Lin" /></NavLink>
-      <nav aria-label="Main navigation"><NavLink to="/" end>Work</NavLink><NavLink to="/about">About</NavLink><a href={site.resume} target="_blank" rel="noreferrer">Resume</a></nav>
+      <NavLink className="site-brand" to="/" aria-label="Christina Lin home"><Asterisk size={28} aria-hidden="true" /><span>Christina Lin</span></NavLink>
+      <nav aria-label="Main navigation"><Link to="/#work">Work</Link><NavLink to="/about">About</NavLink><a href={site.resume} target="_blank" rel="noreferrer">Resume</a><Link to="/#contact">Contact</Link></nav>
     </div></header>
-    <main id="main" tabIndex={-1}><Outlet /></main>
-    <footer className="site-footer"><div><NavLink to="/">Home</NavLink><NavLink to="/about">About</NavLink><a href={site.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></div><span>© {new Date().getFullYear()} Christina Lin</span><button aria-label="Back to top" title="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><ArrowUp size={20} /></button></footer>
+    <main id="main" tabIndex={-1} className={pathname === '/' ? 'main-home' : 'main-content'}><Outlet /></main>
+    <footer className="site-footer"><DesignArtwork name="night-skyline" className="footer-skyline" /><div className="footer-inner page-width"><span>© {new Date().getFullYear()} Christina Lin</span><nav aria-label="Footer navigation"><NavLink to="/">Home</NavLink><NavLink to="/about">About</NavLink><a href={site.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></nav><button aria-label="Back to top" title="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' })}><ArrowUp size={20} /></button></div></footer>
   </>;
 }

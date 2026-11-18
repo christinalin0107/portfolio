@@ -25,6 +25,14 @@ pnpm dev
 - `src/pages/`: page composition.
 - Case-study `card` blocks use `research`, `quote`, or `annotation` variants. An optional `icon` references a local image; inline `highlight` nodes preserve emphasized phrases.
 - `src/styles.css`: shared design tokens and responsive styles.
+- `public/images/pastel/`: original artwork exported from the Figma mockup, stored locally with its source dimensions.
+- `src/hooks/useDayNightScroll.ts`: scroll-driven sky colours, sun movement, and night visibility. Reduced-motion preferences keep the illustrated sections static.
+
+## Versions
+
+The original portfolio is preserved in GitHub under the annotated tag `portfolio-before-pastel-redesign`. The Figma redesign was developed on `redesign/pastel-pixel`. Existing project URLs, case-study content, images, videos, and UX/other-project groupings are retained.
+
+The visual reference is the [Pastel Pixel Portfolio homepage mockup](https://www.figma.com/design/DYGioZTicMeMWjijap4EoG/?node-id=11-17). Homepage cards use real project covers and derive their summaries from existing case-study content. Shared colours and typography are defined at the top of `src/styles.css`.
 
 Add a project record and matching content file to create a project. The build creates its direct-link entry automatically. Existing Framer URL slugs are preserved.
 
