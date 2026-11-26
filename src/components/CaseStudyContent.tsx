@@ -35,7 +35,7 @@ function ContentGroup({ block }: { block: ContentBlock }) {
   }
   if (block.type === 'richText') {
     const Heading = block.level === 1 ? 'h1' : block.level === 2 ? 'h2' : block.level === 3 ? 'h3' : 'p';
-    return <Heading className={`study-text study-text--${block.role}`}><RichText content={block.content || []} /></Heading>;
+    return <Heading id={block.id} tabIndex={block.id ? -1 : undefined} className={`study-text study-text--${block.role}`}><RichText content={block.content || []} /></Heading>;
   }
   if (block.type === 'list') return block.ordered ? <ol className="study-list">{children}</ol> : <ul className="study-list">{children}</ul>;
   if (block.type === 'listItem') return <li>{children}</li>;
@@ -44,6 +44,6 @@ function ContentGroup({ block }: { block: ContentBlock }) {
   return <div className={`study-${block.type} study-spacing--${block.spacing || 'normal'}`} style={style}>{children}</div>;
 }
 
-export function CaseStudyContent({ blocks }: { blocks: ContentBlock[] }) {
-  return <div className="case-study-layout">{blocks.map((block, index) => <ContentGroup block={block} key={index} />)}</div>;
+export function CaseStudyContent({ blocks, intro = false }: { blocks: ContentBlock[]; intro?: boolean }) {
+  return <div className={`case-study-layout${intro ? ' case-study-intro' : ''}`}>{blocks.map((block, index) => <ContentGroup block={block} key={index} />)}</div>;
 }

@@ -3,6 +3,7 @@ import site from './site.json';
 
 export interface ContentBlock {
   type: string;
+  id?: string;
   text?: string;
   src?: string;
   alt?: string;

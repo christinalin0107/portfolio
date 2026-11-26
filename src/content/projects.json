@@ -7,7 +7,11 @@
       "UI.UX",
       "Accessibility"
     ],
-    "cover": "images/accessibilityservices-cover.png"
+    "cover": "images/accessibilityservices-cover.png",
+    "context": "Professional work / Research & design; not implemented",
+    "description": "Making course accommodations easier to manage for students, instructors, and Accessibility Services staff.",
+    "contribution": "Led student and instructor interviews, explored workflows, and designed accommodation interfaces for ACORN and CIS.",
+    "evidence": "Two rounds of interviews with each user group informed the designs. The project did not proceed to implementation; no post-launch outcomes were measured."
   },
   {
     "slug": "cards",
@@ -18,7 +22,11 @@
       "User Research",
       "Design System"
     ],
-    "cover": "images/cards-cover.png"
+    "cover": "images/cards-cover.png",
+    "context": "Professional work / Design system",
+    "description": "Supporting simple content and complex interactions with a consistent, reusable card component.",
+    "contribution": "Researched existing patterns, designed Basic and Instance-Swap variants, documented behavior, and reviewed implementation with a developer.",
+    "evidence": "Designer feedback informed a reusable header. Implementation review covered visual specifications, keyboard navigation, and screen-reader behavior."
   },
   {
     "slug": "stitchfit",
@@ -29,7 +37,11 @@
       "User Research",
       "E-commerce"
     ],
-    "cover": "images/stitchfit-cover.png"
+    "cover": "images/stitchfit-cover.png",
+    "context": "Concept project / UX prototype",
+    "description": "Helping online shoppers navigate inconsistent clothing sizes and find a fit that suits them.",
+    "contribution": "Conducted user research, explored sizing concepts, and iterated on onboarding and shopping flows through usability testing.",
+    "evidence": "Five research interviews, three low-fidelity tests, and five high-fidelity usability tests informed the prototype. AI sizing accuracy was not validated."
   },
   {
     "slug": "infosecurity",
@@ -39,7 +51,11 @@
       "UI.UX",
       "Information Architecture"
     ],
-    "cover": "images/infosecurity-cover.png"
+    "cover": "images/infosecurity-cover.png",
+    "context": "Professional work / Website redesign",
+    "description": "Bringing fragmented security resources from three University of Toronto websites into one clear destination.",
+    "contribution": "Audited content, mapped information architecture, designed audience-based navigation, and documented interface patterns.",
+    "evidence": "A hybrid card sort with 14 security team members informed the structure. Two legacy websites were decommissioned following consolidation."
   },
   {
     "slug": "lore",
@@ -50,7 +66,11 @@
       "Graphic Design",
       "Production"
     ],
-    "cover": "images/lore-cover.png"
+    "cover": "images/lore-cover.png",
+    "context": "Editorial work / Art direction",
+    "description": "Giving a Toronto-based independent magazine a visual identity that supports diverse community stories.",
+    "contribution": "Art direction, graphic design, and production for a collaborative editorial publication.",
+    "evidence": "The case study presents published issues and the visual direction developed for the magazine."
   },
   {
     "slug": "basementboutiqstudio",
@@ -61,7 +81,11 @@
       "Brand Design",
       "E-commerce"
     ],
-    "cover": "images/basementboutiqstudio-cover.png"
+    "cover": "images/basementboutiqstudio-cover.png",
+    "context": "Independent business / Product & brand design",
+    "description": "Building a cohesive brand and product collection for a handmade accessories business.",
+    "contribution": "Designed the brand, jewellery, keychains, and stickers, alongside an online shop and market presence.",
+    "evidence": "A collection of physical products, packaging, and shop materials shows the brand across digital and in-person touchpoints."
   },
   {
     "slug": "zodiacanimals",
@@ -71,7 +95,11 @@
       "3D Modelling",
       "Graphic Design"
     ],
-    "cover": "images/zodiacanimals-cover.png"
+    "cover": "images/zodiacanimals-cover.png",
+    "context": "Client work / 3D & brand design",
+    "description": "Connecting a refreshed brand identity with a zodiac-inspired toy collection.",
+    "contribution": "Redesigned the logo and explored characters through 2D artwork, 3D models, and product mockups.",
+    "evidence": "Deliverables include identity explorations, toy models, and concepts for web and print."
   },
   {
     "slug": "architecture",
@@ -82,6 +110,10 @@
       "Mapping",
       "Representation"
     ],
-    "cover": "images/architecture-cover.png"
+    "cover": "images/architecture-cover.png",
+    "context": "Architecture portfolio / Spatial design",
+    "description": "Exploring how mapping, representation, and spatial design can reveal new possibilities for urban places.",
+    "contribution": "Developed architectural proposals, maps, drawings, and models across a collection of projects.",
+    "evidence": "The selected work documents design exploration and representation; proposals are not presented as built outcomes."
   }
 ]

@@ -86,7 +86,7 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "November - January 2026"
+                        "text": "November 2025 - January 2026"
                       }
                     ]
                   }
@@ -391,7 +391,7 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Gathering feedback from other designers is especially important when working on a design system, since they will ultimately be using the component in their products. They may identify gaps that were not initially considered or suggest useful variants that could improve the component’s flexibility."
+                        "text": "I asked other designers to review the component against their product needs. Their feedback exposed a limitation in the original header: it supported a popover, but not other secondary actions."
                       }
                     ]
                   },
@@ -457,7 +457,7 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "When designing for a design system, it is important to think beyond the individual component and consider the system as a whole and how features connect with and impact other components, much like bricks that come together to form a building."
+                        "text": "The trade-off was an additional shared component to maintain, in exchange for a consistent header pattern that could support cards and other containers without duplicating their structure."
                       }
                     ]
                   }
@@ -645,7 +645,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "It is also important to consider the bigger picture. A single component is only one building block within a larger design system, and patterns introduced in one component can influence or be reused across others to create a more interconnected system. Reviewing existing design system components, patterns, and design tokens helps ensure that new components align with established standards and integrate effectively into the broader ecosystem"
+                    "text": "It is also important to consider the bigger picture. A single component is only one building block within a larger design system, and patterns introduced in one component can influence or be reused across others to create a more interconnected system. Reviewing existing design system components, patterns, and design tokens helps ensure that new components align with established standards and integrate effectively into the broader ecosystem."
                   }
                 ]
               }

@@ -167,7 +167,7 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Figma | Optimal Workshop | Wordpress | Miro"
+                        "text": "Figma | Optimal Workshop | WordPress | Miro"
                       }
                     ]
                   }
@@ -281,7 +281,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "We created a unified website that made it effortless for users to find the information they needed based on their roles. Internal security staff could quickly access risk assessments and incident response guidelines, while students could easily navigate security resources and best practices. At the heart of this solution was a user-centered information architecture (IA) that transformed a fragmented system into a smooth, intuitive experience."
+                "text": "We consolidated the content into a unified website, with audience-based resource pathways and a revised information architecture. Students, faculty, staff, and security professionals could browse resources relevant to their needs, alongside a shared services catalog."
               }
             ]
           }
@@ -470,7 +470,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "The results echoes the concerns brought up in the heuristic analysis, which were that the current websites were hard to navigate and find relevant resources. Users want the new website to address this issue as well as having easy access to services, training material, and current news and updates on information security."
+                    "text": "The results echoed the concerns brought up in the heuristic analysis, which were that the current websites were hard to navigate and find relevant resources. Users want the new website to address this issue as well as having easy access to services, training material, and current news and updates on information security."
                   }
                 ]
               }
@@ -503,7 +503,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "The main problem was that users didn't not know where to look for resources, many resources had multiple navigation paths, making the resources difficult to find. There was also too much information linking fro the website that made it difficult for users to find relevant information.We conducted an audit of all current pages and resources across all three information security websites and review this list with the the informaiton securty team to determine what to keep and which documents to archive. "
+                    "text": "Resources had overlapping navigation paths and unclear ownership, making it difficult to know where to look. We audited pages and resources across all three websites, then reviewed the inventory with the Information Security team to decide what to retain or archive."
                   }
                 ]
               },
@@ -759,7 +759,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Due to the technical limitations of the WordPress website, we had to adjust the design while maintaining the same functionality. I implemented top and side navigation to help users explore service categories, along with a search bar for finding specific services. "
+                "text": "WordPress constraints prevented the initial multi-select filter design. I adapted the catalog to use top and side navigation for categories, plus search for specific services. The trade-off was moving away from combined dropdown filters while retaining category browsing and direct lookup."
               }
             ]
           },
@@ -808,7 +808,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "The information on the page was also cluttered and diffucuolt to find the relevant contact or resource especially in times of emergency."
+                    "text": "The information on the page was also cluttered and difficult to find the relevant contact or resource especially in times of emergency."
                   }
                 ]
               }
@@ -912,7 +912,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "As a result of this redesign, we successfully decommissioned two other information security websites, consolidating all essential information into a single, easy-to-navigate platform. This improvement made it simpler for users to find what they needed. The conversion rate for key service pages such as UTORMFA, UTORVPN, and UTORid rose by 60% compared to the previous website. Engagement also increased by 30%, with more users visiting the site to access resources."
+                    "text": "Following the redesign, two legacy information security websites were decommissioned and their essential content consolidated. Google Analytics reported a 60% increase in the conversion rate for key service pages, including UTORMFA, UTORVPN, and UTORid, and a 30% increase in engagement compared with the previous website. These are reported post-redesign changes, not proof that design changes alone caused the increases."
                   }
                 ]
               },

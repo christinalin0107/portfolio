@@ -186,7 +186,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "StitchFit is an ecommerce app that recommends shoppers correct fitting clothing by measuring them with AI-powered imaging technology and using their measurements to curate a selection of clothing from different brands personalized to their size and preference."
+                    "text": "StitchFit is an e-commerce concept that explores using photo-based measurements to suggest clothing across brands based on size and fit preferences. This project tested the interface and shopping flows, not the technical feasibility or accuracy of an AI sizing system."
                   }
                 ]
               },
@@ -417,7 +417,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Users are prompted to select their sizing preferences and optionally input their measurements for greater accuracy. They the can follow on-screen directions to complete the photo-sizing process. "
+                    "text": "Users are prompted to select their sizing preferences and optionally input their measurements for greater accuracy. They can follow on-screen directions to complete the photo-sizing process. "
                   }
                 ]
               }
@@ -467,7 +467,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "The items on the homepage are generated from the users brand preferences as well as sizing results. They can view individual items, look at reviews and add the item to their bag. "
+                    "text": "In the concept, the homepage presents clothing based on the user's brand preferences and proposed sizing results. Shoppers can view items, read reviews, and add an item to their bag."
                   }
                 ]
               }
@@ -500,7 +500,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "To further understand users pain points on the current state of online shopping, I conducted user interviews to recognize the target user and to see how online shoppers felt about finding their size online. "
+                    "text": "I interviewed online shoppers to understand how they choose sizes, where they encounter uncertainty, and what helps them decide whether to buy."
                   }
                 ]
               },
@@ -510,7 +510,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "I conducted user interviews with five participants to gain deeper insights into my target users and inform my design. The questions focused on their routines and opinions about the current state of online shopping. Which informed the design to analyze users' body measurements to determine the best size for them, addressing the inevitable inconsistencies between brand sizes. Some main insights that users brought up include: "
+                    "text": "Five participants described their shopping routines and how they handle inconsistent sizing. Their feedback informed a concept that combines measurements with personal fit preferences. Key interview insights included:"
                   }
                 ]
               }
@@ -829,7 +829,7 @@
                         "content": [
                           {
                             "type": "text",
-                            "text": "Sketch 1 is an app that utilizes photo scanning technology to determine an users size, then suggests clothing based on their size"
+                            "text": "Sketch 1 is an app that utilizes photo scanning technology to determine a user's size, then suggests clothing based on their size"
                           }
                         ]
                       }
@@ -844,17 +844,7 @@
                         "content": [
                           {
                             "type": "text",
-                            "text": "Sketch 2 is a browser plug-in that asks users a variety of questions about their body, fit preferences, an sizing from specific brands"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "richText",
-                        "role": "body",
-                        "content": [
-                          {
-                            "type": "text",
-                            "text": "I decided to proceed with Sketch 1 because it provides a more objective method for measuring the user's size, resulting in more accurate sizing suggestions."
+                            "text": "Sketch 2 is a browser plug-in that asks users a variety of questions about their body, fit preferences, and sizing from specific brands"
                           }
                         ]
                       }
@@ -870,7 +860,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "I decided to proceed with Sketch 1 because it provides a more objective method for measuring the user's size, resulting in more accurate sizing suggestions."
+                "text": "I chose Sketch 1 to explore whether photo-based measurements could reduce reliance on subjective sizing questions. That was a design hypothesis, not a validated accuracy improvement; the prototype focused on how people would understand and use the proposed flow."
               }
             ]
           }
@@ -945,7 +935,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "I translated my first sketches into low-fidelity wireframes and created a clickable prototype to test with users. Based on 3 tests, I’ve made a few alternations and moved on to creating high-fidelity prototypes."
+                    "text": "I translated the sketches into a clickable low-fidelity prototype. Three usability tests informed revisions before I developed the high-fidelity prototype."
                   }
                 ]
               },
@@ -1002,7 +992,7 @@
                         "content": [
                           {
                             "type": "text",
-                            "text": "Move the login to a later part of the app so that users are not asked to login immediately after opening the app. "
+                            "text": "Move the login to a later part of the app so that users are not asked to log in immediately after opening the app. "
                           }
                         ]
                       }
@@ -1405,7 +1395,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "I moved the 'add the closet' button next to the 'add to bag' button and changed it to a heart icon so that it is more intuitive and easier to find for users."
+                    "text": "I moved the 'add to closet' button next to the 'add to bag' button and changed it to a heart icon so that it is more intuitive and easier to find for users."
                   }
                 ]
               }

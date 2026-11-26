@@ -86,7 +86,7 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "July 2024- Current"
+                        "text": "Started July 2024; project concluded"
                       }
                     ]
                   }
@@ -111,7 +111,7 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Figma | Fig jam "
+                        "text": "Figma | FigJam "
                       }
                     ]
                   }
@@ -207,7 +207,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "This project focuses on redesigning and improving the course accommodations process for students with accessibility needs at U of T. It includes developing a streamlined system within the student portal (ACORN), the instructor portal (CIS), and a vendor platform for Accessibility Services staff to manage accommodations efficiently. The goal is to remove barriers for students with disabilities, ensuring they can easily access the support they need to succeed in their courses."
+                "text": "This research and design project explored course accommodation workflows at U of T across the student portal (ACORN), instructor portal (CIS), and a vendor platform for Accessibility Services staff. The aim was to reduce barriers for students and simplify coordination. The project did not proceed to implementation; this case study documents the research, proposed designs, and decisions made during that work."
               }
             ]
           }
@@ -295,7 +295,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Needing to send Letters of Accommdation to each course instructor is a hassle and easy to forget."
+                    "text": "Needing to send Letters of Accommodation to each course instructor is a hassle and easy to forget."
                   }
                 ]
               },
@@ -305,7 +305,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Not receiving notes from volunteer notetakers despite incidicating that it was an course accommodation need."
+                    "text": "Not receiving notes from volunteer notetakers despite indicating that it was a course accommodation need."
                   }
                 ]
               },
@@ -345,7 +345,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Difficultly finding accessbility documents and templates to set up course accommodations. "
+                    "text": "Difficulty finding accessibility documents and templates to set up course accommodations. "
                   }
                 ]
               },
@@ -530,7 +530,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "The volunteer notetaking process covers the steps a student goes through to request and receiving notes from volunteer notetakers. "
+                    "text": "The volunteer notetaking process covers the steps a student goes through to request and receive notes from volunteer notetakers. "
                   }
                 ]
               },
@@ -601,7 +601,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The current Accommodations page on ACORN houses the Accommodated testing area, which where students go to request and manage accommodations for their test and exams. We explored combining the course accommodations and accommodated testing content into one dashboard or having 2 separate cards on the page, distringuishing the separate areas. "
+                "text": "The current Accommodations page on ACORN houses the Accommodated testing area, where students go to request and manage accommodations for their tests and exams. We explored combining the course accommodations and accommodated testing content into one dashboard or having 2 separate cards on the page, distinguishing the separate areas. "
               }
             ]
           },
@@ -641,7 +641,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "When we brought this to the development team, we learned that the Accommodated Testing area was built using older AngularJS code, while the team had since transitioned to Angular. Due to limited development capacity, we were unable to fully rebuild the older section in Angular to integrate it with the new Course Accommodations area. As a result, we kept the areas separate for the initial launch to stay on schedule."
+                "text": "The dashboard preference had to be balanced against implementation constraints: Accommodated Testing used legacy AngularJS, while new development used Angular. With limited development capacity, we proposed keeping the two areas separate rather than rebuilding the legacy section. This preserved a feasible initial scope, but deferred the unified dashboard students preferred. The project ultimately did not proceed to implementation."
               }
             ]
           },
@@ -705,7 +705,7 @@
                   },
                   {
                     "type": "text",
-                    "text": "My approach was to organize the designs on a FigJam board alongside relevant questions and share this screen with users during the interview. This allowed participants to view the questions alongside the designs for better context. The notetaker also recorded interview notes using sticky notes on the board, aligning them with each question to ensure clarity during analysis. This method supports lean UX practices by streamlining both the interview setup and analysis, making the research process more efficient compared to traditional user interviews practices. "
+                    "text": "My approach was to organize the designs on a FigJam board alongside relevant questions and share this screen with users during the interview. This allowed participants to view the questions alongside the designs for better context. The notetaker also recorded interview notes using sticky notes on the board, aligning them with each question to ensure clarity during analysis. This method supports lean UX practices by streamlining both the interview setup and analysis, making the research process more efficient compared to traditional interview practices. "
                   }
                 ]
               }
@@ -772,7 +772,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Add a confirmation flow to ensure student do not accidentally send a Letter of Accommodation. "
+                    "text": "Add a confirmation flow to ensure students do not accidentally send a Letter of Accommodation. "
                   }
                 ]
               }
@@ -828,7 +828,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "One key improvement I made was replacing the tooltip component in the design system with a popover. Testing designs with screen readers like NVDA for Windows or VoiceOver for Mac helps evaluate how students using screen readers or keyboard navigation accommodations experience the interface. Tooltips require users to hover over an area with a cursor, which is not accessible for screen reader users. In contrast, the popover component is a more accessible alternative, allowing users to open and close it with their keyboard. Additionally, the popover icon is more visible than the underline typically used to indicate a tooltip hover, improving overall usability."
+                    "text": "I proposed replacing the hover-based help pattern with an explicitly triggered popover, making the help easier to discover and giving users control over opening and closing it. Tooltips are not inherently inaccessible: either pattern needs appropriate keyboard interaction and screen-reader support. Implementation would need checks for an accessible trigger, keyboard operation, dismissal, and association between the control and its help content, including testing with NVDA and VoiceOver."
                   }
                 ]
               }
@@ -991,7 +991,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Ability to view voluteer notes is unecessary and pushing more work on instructors. "
+                    "text": "Ability to view volunteer notes is unnecessary and pushing more work on instructors. "
                   }
                 ]
               },
@@ -1001,7 +1001,7 @@
                 "content": [
                   {
                     "type": "text",
-                    "text": "Add a confirmation flow to ensure student do not accidentally send a Letter of Accommodation. "
+                    "text": "Add a confirmation flow to ensure students do not accidentally send a Letter of Accommodation. "
                   }
                 ]
               }
@@ -1013,7 +1013,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "The next steps are to implement instructor feedback to the designs, as this is an on-going project. "
+                "text": "Instructor interviews identified changes to filters, descriptions, and the notetaking workflow. These findings informed recommendations for further design iteration, but the project did not proceed to implementation."
               }
             ]
           }
@@ -1029,7 +1029,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "Impact"
+                "text": "Outcome & reflection"
               }
             ],
             "level": 2
@@ -1040,7 +1040,7 @@
             "content": [
               {
                 "type": "text",
-                "text": "This project aims to enhance the student accommodation process, making it easier for students to register and request course accommodations while reducing stress and challenges for an already marginalized group. It will also streamline workflows for instructors and staff, ensuring student requests are addressed more efficiently and accurately."
+                "text": "The project concluded without moving forward to implementation, so there are no launch metrics or demonstrated service improvements to report. Its design contribution was the research-informed proposal: privacy controls, clearer accommodation descriptions, confirmation flows, and instructor filters. These were intended to reduce administrative friction, not measured outcomes. A key lesson was balancing the preferred user experience with legacy-system constraints and development capacity."
               }
             ]
           }
